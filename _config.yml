@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "STEP group @ KTH"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "STEP group"
+description              : "KTH STEP group's website"
 url                      : "https://kth-step.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,6 +105,7 @@ analytics:
 
 
 # Site Author
+## In this website, the author is the STEP group
 author:
   name             : "STEP group"
   avatar           : "/assets/images/step-200x200.png"
