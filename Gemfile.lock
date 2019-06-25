@@ -245,8 +245,12 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed (~> 0.6)
+  jekyll-feed
+  jekyll-gist
   jekyll-include-cache
+  jekyll-paginate
+  jekyll-sitemap
+  jemoji
   tzinfo-data
 
 BUNDLED WITH
