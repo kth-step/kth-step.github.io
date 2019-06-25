@@ -288,6 +288,9 @@ collections:
   past_members:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -298,7 +301,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _posts
+  # _posts TODO: change to news
   - scope:
       path: ""
       type: posts
@@ -309,6 +312,14 @@ defaults:
       comments: true
       share: true
       related: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: false
   # _members
   - scope:
       path: ""
@@ -316,7 +327,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      #share: true
+      share: false
   # _past_members
   - scope:
       path: ""
@@ -324,5 +335,5 @@ defaults:
     values:
       layout: single
       author_profile: true
-      #share: true
+      share: false
 
