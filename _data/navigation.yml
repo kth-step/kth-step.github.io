@@ -6,8 +6,8 @@ main:
     url: /news
   - title: "Events"
     url: /events
-  - title: "People"
-    url: /people
+  - title: "Members"
+    url: /members
   - title: "Projects"
     url: /projects
   - title: "Publications"
