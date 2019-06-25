@@ -4,8 +4,6 @@ main:
     url: /
   - title: "News"
     url: /news
-  - title: "Events"
-    url: /events
   - title: "Members"
     url: /members
   - title: "Projects"
