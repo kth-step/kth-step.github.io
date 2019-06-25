@@ -13,26 +13,29 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
+title: "KTH STEP group"
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    Cras lobortis hendrerit purus, non vulputate quam. Donec eget tempus felis, eget facilisis metus. Duis semper tellus vitae blandit ultricies.
+    Phasellus iaculis diam eget erat rutrum commodo. Duis purus eros, molestie vitae aliquam sed, malesuada et metus.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+#twitter_username: jekyllrb
+github_username: "kth-step"
 
 # Build settings
 markdown: kramdown
-theme: minima
+# Minimal Mistakes theme
+# https://mmistakes.github.io/minimal-mistakes/docs/
+remote_theme: "mmistakes/minimal-mistakes@4.16.4"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
+### Be careful with this: https://jekyllrb.com/docs/troubleshooting/#configuration-problems
 # exclude:
 #   - Gemfile
 #   - Gemfile.lock
@@ -41,3 +44,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#
