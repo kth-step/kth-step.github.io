@@ -280,9 +280,24 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  members:
+    output: true
+    permalink: /:collection/:path/
+  past_members:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   # _posts
   - scope:
       path: ""
@@ -291,7 +306,23 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _members
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: single
+      author_profile: true
+      #share: true
+  # _past_members
+  - scope:
+      path: ""
+      type: past_members
+    values:
+      layout: single
+      author_profile: true
+      #share: true
 

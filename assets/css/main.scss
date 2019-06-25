@@ -1,0 +1,45 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+#
+# This file has been included in order to make some changes to the style.
+# This is safe because it should not be updated often.
+# See: https://github.com/mmistakes/minimal-mistakes/issues/1453
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+///////////////////////////////////////////////////////////////////////////////
+// Custom changes
+
+// Profile pictures in the People page
+
+.grid__item {
+    // Center everything
+    .archive__item {
+        text-align: center;
+    }
+
+    // Do not truncate the picture but scale it down.
+    .archive__item-teaser {
+        img {
+            height: auto;
+            width: auto;
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+        }
+
+        // Copied this from the theme style, and change
+        // `max-height` to `height`.
+        @include breakpoint($small) {
+            height: 200px;
+        }
+        @include breakpoint($medium) {
+            height: 120px;
+        }
+    }
+}
+
