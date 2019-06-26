@@ -10,4 +10,5 @@ classes: wide
 ---
 
 This page lists the past members of the STEP group. Current members are listed [here](/members/).
+{: .notice}
 
