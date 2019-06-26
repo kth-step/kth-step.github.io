@@ -1,0 +1,67 @@
+current:
+  # Professors
+  - name: "Mads Dam"
+    position: "Professor"
+    picture: /assets/images/people/mfd.jpg
+    url: https://www.kth.se/profile/mfd
+  # Assistant professors
+  - name: "Musard Balliu"
+    position: "Assistant Professor"
+    url: https://www.kth.se/profile/musard
+  - name: "Roberto Guanciale"
+    position: "Assistant professor"
+    picture: /assets/images/people/robertog.jpg
+    url: https://www.kth.se/profile/robertog
+  # Postdocs
+  - name: "Pablo Burias"
+    position: "Postdoc"
+    url: https://www.kth.se/profile/buiras
+  # PhD students
+  - name: "Andreas Lindner"
+    position: "PhD student"
+    picture: /assets/images/people/andili.jpg
+    url: https://www.kth.se/profile/andili
+  - name: "Didrik Lundberg"
+    position: "PhD student"
+    url: https://www.kth.se/profile/didrikl
+  - name: "Karl Norrman"
+    position: "PhD student"
+  - name: "Mikhail Shcherbakov"
+    position: "PhD student"
+  - name: "Xiaomo (Mort) Yao"
+    position: "PhD student"
+  # Master students
+  - name: "Thomas Peterson"
+    position: "Master student"
+    url: https://www.kth.se/profile/thpeter
+  # Interns
+  - name: "Baptiste Coste"
+    position: "Intern"
+  # Other
+  # TBD
+  - name: "Cristoph Baumann"
+    position: "TBD"
+  - name: "Hamed Nemati"
+    position: "TBD"
+  - name: "Mats Näslund"
+    position: "TBD"
+  - name: "Matthias Stockmayer"
+    position: "TBD"
+
+past:
+  # Professors
+  # Assistant professors
+  # Postdocs
+  # PhD students
+  # Master students
+  - name: "Thomas Lacroix"
+    position: "Master student"
+    picture: /assets/images/people/tholac.jpg
+    url: https://www.kth.se/profile/tholac
+  # Interns
+  # Other
+  # TBD
+  - name: "Thomas Tuerk"
+    position: "TBD"
+    url: https://www.kth.se/profile/tuerk
+

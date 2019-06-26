@@ -15,11 +15,9 @@
 // Custom changes
 
 // Profile pictures in the People page
-.grid__item {
+.grid__item.members {
     // Center everything
-    .archive__item {
-        text-align: center;
-    }
+    text-align: center;
 
     // Do not truncate the picture but scale it down.
     .archive__item-teaser {
@@ -31,7 +29,7 @@
             margin: auto;
         }
 
-        // Copied this from the theme style, and change
+        // Copied this from the theme style, and changed
         // `max-height` to `height`.
         @include breakpoint($small) {
             height: 200px;

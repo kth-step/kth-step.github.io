@@ -10,10 +10,10 @@ layout: single
   Andreas Lindner, Roberto Guanciale, and Roberto Metere
 
 - [**Trustworthy Isolation of a Network Interface Controller**](#)<br/>
-  Haglund, Jonas, and Roberto Guanciale
+  Jonas Haglund, and Roberto Guanciale
 
 - [**Trustworthy Memory Isolation of Linux on Embedded Devices**](#)<br/>
-  Nemati, Hamed, Mads Dam, Roberto Guanciale, Viktor Do, and Arash Vahidi
+  Hamed Nemati, Mads Dam, Roberto Guanciale, Viktor Do, and Arash Vahidi
 
 ### Other work
 

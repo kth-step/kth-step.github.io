@@ -15,7 +15,7 @@ You can access thesis and publications in the dedicated [Publications page](/pub
 
 - **2019-05-20**: [Baptiste Coste](/members) joined the team for a three-months internship, to help on implementation of our Bounded Execution Time project.
 
-- **2019-**: [Xiaomo Yao](/members) joined the team for a PhD position, TBD
+- **2019-05-01**: [Xiaomo (Mort) Yao](/members) joined the team for a PhD position on program synthesis.
 
 - **2019-02-19**: [Thomas Lacroix](/members) joined the team for his Master Thesis, about automation of formal verification using [HolBA](/projects/holba). *Thomas leaved on 2019-06-28.*
 
