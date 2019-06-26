@@ -4,6 +4,9 @@ permalink: /news
 layout: single
 ---
 
+You can access thesis and publications in the dedicated [Publications page](/publications).
+{: .notice}
+
 - **2019-07-01**: New website.
 
 - **2019-06-24**: [Thomas Peterson](/members) joined the team for his Master Thesis, about Control-Flow Graph Reconstruction.
