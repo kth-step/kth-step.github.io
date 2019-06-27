@@ -33,6 +33,7 @@ current:
   # Master students
   - name: "Thomas Peterson"
     position: "Master student"
+    picture: /assets/images/people/thpeter.png
     url: https://www.kth.se/profile/thpeter
   # Interns
   - name: "Baptiste Coste"
