@@ -19,7 +19,7 @@ You can access thesis and publications in the dedicated [Publications page](/pub
 
 - **2019-02-19**: [Thomas Lacroix](/members) joined the team for his Master Thesis, about automation of formal verification using [HolBA](/projects/holba). *Thomas leaved on 2019-06-28.*
 
-- **2018-**: [Pablo Burias](/members) joined the team for his postdoc. He will be working on TBD.
+- **2018-**: [Pablo Buiras](/members) joined the team for his postdoc. He will be working on TBD.
 
 *News start from September 2019.* (Until when do we write news?)
 
