@@ -9,7 +9,11 @@ https://kth-step.github.io/
 
 When copy-pasting configuration files from around the Internet, (try to keep it legal, and) try to keep documentation and comments. No need to remove it, because that's likely that (the next-)you will have forgotten about all of this the next time that a change will have to be made. Also, try to write short comments for everything.
 
+In order to update the website, just push to `master`. In other words, GitHub automatically deploys the website from the `master` branch.
+
 ## Running locally
+
+In order to update the website, you can either create direct Pull Requests here on GitHub or clone the repository and commit locally. The second option gives the ability to see changes before pushing the code. Please read the official documentation (links below) for installation instructions and how-to pages.
 
 ```
 # Only once, or when changing plugins
