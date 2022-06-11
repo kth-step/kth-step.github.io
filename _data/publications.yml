@@ -1,0 +1,81 @@
+publications:
+  - title: "Secure Partitioning of Composite Cloud Applications"
+    authors: "A Bocci, R Guanciale, S Forti, GL Ferrari, A Brogi"
+    pub: "European Conference on Service-Oriented and Cloud Computing"
+    year: 2022
+  - title: "Validation of Side-Channel Models via Observation Refinement"
+    authors: "P Buiras, H Nemati, A Lindner, R Guanciale"
+    pub: "MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture"
+    year: 2021
+  - title: "Refinement-Based Verification of Device-to-Device Information Flow"
+    authors: "N Dong, R Guanciale, M Dam"
+    pub: "CONFERENCE ON FORMAL METHODS IN COMPUTER-AIDED DESIGN–FMCAD"
+    year: 2021
+  - title: "On compositional information flow aware refinement"
+    authors: "C Baumann, M Dam, R Guanciale, H Nemati"
+    pub: "IEEE 34th Computer Security Foundations Symposium (CSF)"
+    year: 2021
+  - title: "PomCho: A tool chain for choreographic design"
+    authors: "R Guanciale, E Tuosto"
+    pub: "Science of Computer Programming"
+    year: 2021
+  - title: "Inspectre: Breaking and fixing microarchitectural vulnerabilities by formal analysis"
+    authors: "R Guanciale, M Balliu, M Dam"
+    pub: "Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications"
+    year: 2020
+  - title: "On testing message-passing components"
+    authors: "A Coto, R Guanciale, E Tuosto"
+    pub: "International Symposium on Leveraging Applications of Formal Methods"
+    year: 2020
+  - title: "An abstract framework for choreographic testing"
+    authors: "A Coto, R Guanciale, E Tuosto"
+    pub: "arXiv preprint arXiv:2009.07990"
+    year: 2020
+  - title: "Hoare-style logic for unstructured programs"
+    authors: "D Lundberg, R Guanciale, A Lindner, M Dam"
+    pub: "International Conference on Software Engineering and Formal Methods"
+    year: 2020
+  - title: "Validation of abstract side-channel models for computer architectures"
+    authors: "H Nemati, P Buiras, A Lindner, R Guanciale, S Jacobs"
+    pub: "International Conference on Computer Aided Verification"
+    year: 2020
+  - title: "Speculative Leakage in ARM Cortex-A53"
+    authors: "H Nemati, R Guanciale, P Buiras, A Lindner"
+    pub: "arXiv preprint arXiv:2007.06865"
+    year: 2020
+  - title: "Trustworthy isolation of DMA devices"
+    authors: "Jonas Haglund, and Roberto Guanciale"
+    pub: "Journal of Banking and Financial Technology"
+    year: 2020
+  - title: "Trustworthy Isolation of DMA Enabled Devices"
+    authors: "Jonas Haglund, and Roberto Guanciale"
+    pub: "International Conference on Information Systems Security"
+    year: 2019
+  - title: "On the verification of system-level information flow properties for virtualized execution platforms"
+    authors: "C Baumann, O Schwarz, M Dam"
+    year: 2019
+  - title: "TrABin: Trustworthy Analyses of Binaries"
+    authors: "Andreas Lindner, Roberto Guanciale, and Roberto Metere"
+    pub: "Science of Computer Programming 174"
+    year: 2019
+  # - title: Trustworthy Isolation of a Network Interface Controller
+  #   authors: Jonas Haglund, and Roberto Guanciale
+  #   year: 
+  - title: "Trustworthy Memory Isolation of Linux on Embedded Devices"
+    authors: "Hamed Nemati, Mads Dam, Roberto Guanciale, Viktor Do, and Arash Vahidi"
+    pub: "International Conference on Trust and Trustworthy Computing"
+    year: 2015
+masters:
+  # Master's thesis
+  - title: "OpenMZ: a C implementation of the MultiZone API"
+    authors: "Henrik Karlsson"
+    year: 2020 
+  - title: "Alternating Control Flow Graph Reconstruction by Combining Constant Propagation and Strided Intervals with Directed Symbolic Execution"
+    authors: "Thomas Peterson"
+    year: 2019
+  - title: "Experiments on automation of formal verification of devices at the binary level"
+    authors: "Thomas Lacroix"
+    year: 2019
+  - title: "Provably Sound and Secure Automatic Proving and Generation of Verification Conditions"
+    authors: "Didrik Lundberg"
+    year: 2018

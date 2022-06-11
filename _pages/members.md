@@ -1,10 +1,7 @@
 ---
 title: Members
 permalink: /members/
+layout: single
 ---
 
-This page lists the current members of the STEP group. Past members are listed [here](/past_members/).
-{: .notice}
-
-{% include member_list.md members=site.data.members.current %}
-
+{% include member_list.md members=site.data.members %}

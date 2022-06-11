@@ -8,6 +8,7 @@ current:
   - name: "Musard Balliu"
     position: "Assistant Professor"
     url: https://www.kth.se/profile/musard
+    picture: https://www.kth.se/files/avatar/musard
   - name: "Roberto Guanciale"
     position: "Assistant professor"
     picture: /assets/images/people/robertog.jpg
@@ -16,6 +17,15 @@ current:
   - name: "Pablo Buiras"
     position: "Postdoc"
     url: https://www.kth.se/profile/buiras
+    picture: https://www.kth.se/files/avatar/buiras
+  - name: "Karl Palmskog"
+    position: "Postdoc"
+    url: https://www.kth.se/profile/palmskog
+    picture: https://www.kth.se/files/avatar/palmskog
+  - name: "Arve Gengelbach"
+    position: "Postdoc"
+    url: https://people.kth.se/~arveg/
+    picture: https://www.kth.se/files/avatar/arveg
   # PhD students
   - name: "Andreas Lindner"
     position: "PhD student"
@@ -24,20 +34,39 @@ current:
   - name: "Didrik Lundberg"
     position: "PhD student"
     url: https://www.kth.se/profile/didrikl
+    picture: https://www.kth.se/files/avatar/didrikl
   - name: "Karl Norrman"
     position: "PhD student"
+    url: https://www.kth.se/profile/knorrman
+    picture: https://www.kth.se/files/avatar/knorrman
   - name: "Mikhail Shcherbakov"
     position: "PhD student"
+    url: https://www.kth.se/profile/mshc
+    picture: https://www.kth.se/files/avatar/mshc
   - name: "Xiaomo (Mort) Yao"
     position: "PhD student"
+    url: https://www.kth.se/profile/xiaomoy
+    picture: https://www.kth.se/files/avatar/xiaomoy
+  - name: "Ning Dong"
+    position: "PhD student"
+    url: https://www.kth.se/profile/dongn
+    picture: https://www.kth.se/files/avatar/dongn
+  - name: "Anoud Alshnakat"
+    position: "PhD student"
+    url: https://www.kth.se/profile/anoud
+    picture: https://www.kth.se/files/avatar/anoud
+  - name: "Jonas Haglund"
+    position: "PhD student"
+    url: https://www.kth.se/profile/jhagl
+    picture: https://www.kth.se/files/avatar/jhagl
+  - name: "Henrik Karlsson"
+    position: "PhD student"
+    url: https://www.kth.se/profile/henrik10
+    picture: https://www.kth.se/files/avatar/henrik10
   # Master students
-  - name: "Thomas Peterson"
+  - name: "Henrik Kultala"
     position: "Master student"
-    picture: /assets/images/people/thpeter.png
-    url: https://www.kth.se/profile/thpeter
   # Interns
-  - name: "Baptiste Coste"
-    position: "Intern"
   # Other
   # TBD
   - name: "Cristoph Baumann"
@@ -59,7 +88,13 @@ past:
     position: "Master student"
     picture: /assets/images/people/tholac.jpg
     url: https://www.kth.se/profile/tholac
+  - name: "Thomas Peterson"
+    position: "Master student"
+    picture: /assets/images/people/thpeter.png
+    url: https://www.kth.se/profile/thpeter
   # Interns
+  - name: "Baptiste Coste"
+    position: "Intern"
   # Other
   # TBD
   - name: "Thomas Tuerk"

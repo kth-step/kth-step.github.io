@@ -1,14 +1,20 @@
 ---
 title: "Home"
 permalink: /
-layout: single # home
-author_profile: true
+layout: single
 ---
+Welcome to the Secure and Trustworthy Execution Platforms (STEP) group at KTH!
 
-This website is work-in-progress. Please send a mail to Mads or Roberto, and check their profile webpages, if you want to learn more about the STEP group. Thank you!
-{: .notice--warning}
+You can access thesis and publications in the dedicated [Publications page](/publications).
+{: .notice}
 
- Nulla enim leo, elementum et tellus ac, cursus porttitor enim. Vestibulum vulputate eros id aliquet sollicitudin. Maecenas imperdiet volutpat nisi, at faucibus tellus vulputate eget. Vivamus euismod tempor hendrerit. Nam sit amet odio varius, suscipit lorem ac, blandit nisi. Aliquam eget odio tempus, laoreet tortor eget, gravida quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis non metus ex. Phasellus nibh dui, finibus eu pellentesque quis, tempor quis purus. Duis felis purus, elementum vel enim non, posuere mattis urna. Nulla id neque nec lectus pulvinar egestas. Pellentesque lacinia porta eros a egestas. In hac habitasse platea dictumst. Sed posuere sagittis nunc, in sollicitudin magna laoreet eu.
+- **2019-07-01**: New website.
+- **2019-06-24**: [Thomas Peterson](/members) joined the team for his Master Thesis, about Control-Flow Graph Reconstruction.
+- **2019-06-24**: KTH hosted the [EuroS&P 2019 conference](https://www.ieee-security.org/TC/EuroSP2019/) last week.
+- **2019-05-20**: [Baptiste Coste](/members) joined the team for a three-months internship, to help on implementation of our Bounded Execution Time project.
+- **2019-05-01**: [Xiaomo (Mort) Yao](/members) joined the team for a PhD position on program synthesis.
+- **2019-02-19**: [Thomas Lacroix](/members) joined the team for his Master Thesis, about automation of formal verification using [HolBA](/projects#holba). *Thomas left on 2019-06-28.*
+- **2018-10-01**: [Pablo Buiras](/members) joined the team for his postdoc in the [Trustfull project](/projects#trustfull).
 
-Cras lobortis hendrerit purus, non vulputate quam. Donec eget tempus felis, eget facilisis metus. Duis semper tellus vitae blandit ultricies. Phasellus iaculis diam eget erat rutrum commodo. Duis purus eros, molestie vitae aliquam sed, malesuada et metus. Maecenas porta accumsan lectus, a iaculis urna accumsan vel. Donec vel condimentum urna. Curabitur non imperdiet lacus. Maecenas accumsan ultrices cursus.
+*News start from September 2018.*
 
