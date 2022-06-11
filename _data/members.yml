@@ -6,11 +6,11 @@ current:
     url: https://www.kth.se/profile/mfd
   # Assistant professors
   - name: "Musard Balliu"
-    position: "Assistant Professor"
+    position: "Associate Professor"
     url: https://www.kth.se/profile/musard
     picture: https://www.kth.se/files/avatar/musard
   - name: "Roberto Guanciale"
-    position: "Assistant professor"
+    position: "Associate Professor"
     picture: /assets/images/people/robertog.jpg
     url: https://www.kth.se/profile/robertog
   # Postdocs
@@ -87,7 +87,6 @@ past:
   - name: "Thomas Lacroix"
     position: "Master student"
     picture: /assets/images/people/tholac.jpg
-    url: https://www.kth.se/profile/tholac
   - name: "Thomas Peterson"
     position: "Master student"
     picture: /assets/images/people/thpeter.png

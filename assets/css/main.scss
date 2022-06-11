@@ -16,8 +16,7 @@
 
 // Profile pictures in the People page
 .grid__item.members {
-    // Center everything
-    text-align: center;
+    text-align: left;
 
     // Do not truncate the picture but scale it down.
     .archive__item-teaser {
