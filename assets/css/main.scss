@@ -31,12 +31,16 @@
         // Copied this from the theme style, and changed
         // `max-height` to `height`.
         @include breakpoint($small) {
-            height: 200px;
+            max-height: 240px;
         }
         @include breakpoint($medium) {
-            height: 120px;
+            max-height: 180px;
         }
     }
+}
+
+.page {
+        padding-right: 0px;
 }
 
 // Reduce font sizes
@@ -54,5 +58,8 @@ html {
     @include breakpoint($x-large) {
         font-size: 18px; // originally 22px
     }
+    max-width: 1000px;
+    padding: auto;
+    margin: auto;
 }
 
