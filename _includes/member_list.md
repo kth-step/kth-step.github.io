@@ -16,7 +16,9 @@
         <p class="archive__item-excerpt" itemprop="description">{{ member.position }}</p>
 </article>
 {% endfor %}
-<h2 style="clear:both;"> Past Members </h2>
+</div>
+<h2> Past Members </h2>
+<div style="clear:both;">
 {% for member in include.members.past %}
 <article class="grid__item members">
         {% if member.picture %}
@@ -34,3 +36,4 @@
         <p class="archive__item-excerpt" itemprop="description">{{ member.position }}</p>
 </article>
 {% endfor %}
+</div>
