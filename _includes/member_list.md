@@ -2,9 +2,9 @@
 {% for member in include.members %}
 <div class="grid__item members">
         {% if member.picture %}
-        <img class="archive__item-teaser" src="{{ member.picture }}" alt="Profile picture">
+        <img src="{{ member.picture }}" alt="Profile picture" class="portrait" >
         {% else %}
-        <img class="archive__item-teaser" src="/assets/images/people/placeholder.png" alt="Profile picture">
+        <img src="/assets/images/people/placeholder.png" alt="Profile picture" class="portrait" >
         {% endif %}
         <br/>
         <b>
