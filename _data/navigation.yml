@@ -2,12 +2,12 @@
 main:
   - title: "Home"
     url: /
-  - title: "Members"
-    url: /members
-  - title: "Projects"
-    url: /projects
   - title: "Publications"
     url: /publications
+  - title: "Projects"
+    url: /projects
+  - title: "Members"
+    url: /members
   - title: "About"
     url: /about
 
