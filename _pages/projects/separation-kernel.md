@@ -1,5 +1,5 @@
 ---
-title: Formally Verified Separation Kernel
+title: Separation Kernel
 permalink: /projects/separation-kernel/
 members:
   - Henrik Karlsson
