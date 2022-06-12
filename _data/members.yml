@@ -71,10 +71,13 @@ current:
   # TBD
   - name: "Cristoph Baumann"
     position: "TBD"
+    url: https://www.csc.kth.se/~cbaumann/
   - name: "Hamed Nemati"
     position: "TBD"
   - name: "Mats Näslund"
     position: "TBD"
+    url: https://www.kth.se/profile/matsna
+    picture: https://www.kth.se/files/avatar/matsna
   - name: "Matthias Stockmayer"
     position: "TBD"
 
@@ -99,4 +102,5 @@ past:
   - name: "Thomas Tuerk"
     position: "TBD"
     url: https://www.kth.se/profile/tuerk
+    url: https://www.kth.se/files/avatar/tuerk
 
