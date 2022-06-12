@@ -21,6 +21,6 @@ HolBA is a platform for Binary Analysis in HOL4, a theorem prover.
 
 In the HolBA Multicore project we extend the HolBA's BIR with multicore semantics for RISC-V.
 
-## <a href="separation-kernel/">Separation Kernel</a>
+## <a href="separation-kernel/">Formally Verified Separation Kernel</a>
 
 In this project we design, implement and verify a separation kernel for high-assurance real-time systems running on RISC-V.
