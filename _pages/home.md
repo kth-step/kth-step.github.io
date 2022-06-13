@@ -8,17 +8,14 @@ Welcome to the Secure and Trustworthy Execution Platforms (STEP) group at KTH!
 You can access thesis and publications in the dedicated [Publications page](/publications).
 {: .notice}
 
-- **2022-06-13**: [Ning Dong](/members) has his 50% seminar 13:15 in room 4523.
-- **2022-06-09**: STEP Retreat in Sigtuna.
-- **2022-06-02**: At SWITS, [Anoud Alshnakat](/members) presented a [formalization of P4](/projects/p4), and [Henrik Karlsson](/members) presented a poster on the a [separation kernel design](/projects/separation-kernel).
-- **2022-05-15**: HOL4 formalization of [MIL](/projects/mil) publicly released.
-- **2019-07-01**: New website.
-- **2019-06-24**: [Thomas Peterson](/members) joined the team for his Master Thesis, about Control-Flow Graph Reconstruction.
-- **2019-06-24**: KTH hosted the [EuroS&P 2019 conference](https://www.ieee-security.org/TC/EuroSP2019/) last week.
-- **2019-05-20**: [Baptiste Coste](/members) joined the team for a three-months internship, to help on implementation of our Bounded Execution Time project.
-- **2019-05-01**: [Xiaomo (Mort) Yao](/members) joined the team for a PhD position on program synthesis.
-- **2019-02-19**: [Thomas Lacroix](/members) joined the team for his Master Thesis, about automation of formal verification using [HolBA](/projects#holba). *Thomas left on 2019-06-28.*
-- **2018-10-01**: [Pablo Buiras](/members) joined the team for his postdoc in the [Trustfull project](/projects#trustfull).
-
-*News start from September 2018.*
+<h2>News</h2>
+<!-- Get 10 latest news -->
+{% assign news = site.data.news.news | slice: 0, 10 %}
+<!-- Print the news -->
+<dl class="news">
+{% for item in news %}
+        <dt>{{ item.date }}</dt>
+        <dd> {{ item.text |  markdownify }} </dd>
+{% endfor %}
+</dl>
 

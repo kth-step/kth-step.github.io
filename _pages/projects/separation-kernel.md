@@ -30,3 +30,8 @@ This project is funded by the <a href="https://www.kth.se/cdis">Center for Cyber
 <h2>Researchers</h2>
 {% assign mems = site.data.members.current | where_exp: "mem", "page.members contains mem.name " %}
 {% include member_list.md members=mems %}
+
+<div style="clear:both;"></div>
+
+<h2>Resources</h2>
+- [Poster (CDIS Spring Conference, 24 May 2022)](/assets/projects/separation-kernel/2022-cdis-poster.pdf)

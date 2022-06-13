@@ -19,6 +19,9 @@
         {% elsif member.position %}
         <div style="font-size: 90%;">{{ member.position }}</div>
         {% endif %}
+        {% if member.date %}
+        <div style="font-size: 90%;">{{ member.date }}</div>
+        {% endif %}
 </div>
 {% endfor %}
 </div>

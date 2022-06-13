@@ -1,9 +1,11 @@
 publications:
+# 2022
   - title: "Secure Partitioning of Composite Cloud Applications"
     authors: "A Bocci, R Guanciale, S Forti, GL Ferrari, A Brogi"
     pub: "European Conference on Service-Oriented and Cloud Computing"
     year: 2022
     url: "https://link.springer.com/chapter/10.1007/978-3-031-04718-3_3"
+# 2021
   - title: "Validation of Side-Channel Models via Observation Refinement"
     authors: "P Buiras, H Nemati, A Lindner, R Guanciale"
     pub: "MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture"
@@ -23,6 +25,7 @@ publications:
     authors: "R Guanciale, E Tuosto"
     pub: "Science of Computer Programming"
     year: 2021
+# 2020
   - title: "Inspectre: Breaking and fixing microarchitectural vulnerabilities by formal analysis"
     authors: "R Guanciale, M Balliu, M Dam"
     pub: "Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications"
@@ -56,6 +59,12 @@ publications:
     pub: "Journal of Banking and Financial Technology"
     year: 2020
     url: "https://link.springer.com/article/10.1007/s42786-020-00018-x"
+# 2019
+  - title: "Towards a Verified Model of the Algorand Consensus Protocol in Coq"
+    authors: "M Alturki, J Chen, V Luchangco, B Moore, K Palmskog, L Peña and G Roşu"
+    pub: "International Symposium on Formal Methods"
+    year: 2019
+    url: "https://dl.acm.org/doi/abs/10.1145/3372297.3417246"
   - title: "Trustworthy Isolation of DMA Enabled Devices"
     authors: "J Haglund, and R Guanciale"
     pub: "International Conference on Information Systems Security"
@@ -71,16 +80,23 @@ publications:
     pub: "Science of Computer Programming"
     year: 2019
     url: "https://www.sciencedirect.com/science/article/pii/S0167642318301667"
-  # - title: Trustworthy Isolation of a Network Interface Controller
-  #   authors: Jonas Haglund, and Roberto Guanciale
-  #   year: 
+# 2015
   - title: "Trustworthy Memory Isolation of Linux on Embedded Devices"
     authors: "H Nemati, M Dam, R Guanciale, V Do, and A Vahidi"
     pub: "International Conference on Trust and Trustworthy Computing"
     year: 2015
     url: "https://link.springer.com/chapter/10.1007/978-3-319-22846-4_8"
+
 masters:
   # Master's thesis
+  - title: "Proof-producing resolution of indirect jumps in the binary intermediate representation BIR"
+    authors: "Adrian Westerberg"
+    year: 2021
+    url: "https://www.diva-portal.org/smash/record.jsf?pid=diva2:1606484"
+  - title: "Validating Side Channel models in RISC-V using Model-Based Testing"
+    authors: "Victor Vitek"
+    year: 2021
+    url: "https://www.diva-portal.org/smash/record.jsf?pid=diva2:1615024"
   - title: "OpenMZ: a C implementation of the MultiZone API"
     authors: "Henrik Karlsson"
     year: 2020 

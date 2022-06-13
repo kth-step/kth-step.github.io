@@ -8,7 +8,7 @@ permalink: /projects/
 
 The Trustfull project is about trustworthy fullstack computing, i.e. it aims to show that formal techniques can be used in combination with static and dynamic manipulation techniques to strengthen security of real-life application stacks.
 
-[Trutfull project's website](https://www.trustfull.proj.kth.se/){: .btn .btn--info}
+[Trustfull project's website](https://www.trustfull.proj.kth.se/){: .btn .btn--info}
 
 ## [HolBA - Formal Binary Analysis in HOL4](holba)
 {: #holba}
@@ -26,6 +26,8 @@ In the HolBA Multicore project we extend the HolBA's BIR with multicore semantic
 [MIL GitHub repository](https://github.com/kth-step/mil){: .btn .btn--info}
 
 ## [Verified Pipelined Processor](pipeline-processor)
+
+To improve the performance of processors, instruction pipelining is applied to handle multiple instructions concurrently by dividing instruction execution into different stages, like fetch and decode. Based on a verified Verilog model in the HOL4 interactive theorem prover, we implemented a typical 5-stage processor called Silver-Pi, for a simple instruction set architecture (ISA) Silver. This project is working on the correctness proof of the implementation with respect to the Silver ISA, and planning to analyse the information flow of programs on the circuit using the timing channel.
 
 ## CERCES/CERCES2, Pablo, Andreas
 

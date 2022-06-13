@@ -44,6 +44,15 @@ a {
         text-decoration: none;
 }
 
+.news dt {
+        margin: 0px;
+        margin-top: 0.5em;
+}
+.news p {
+        font-size: 1.2em;
+        margin: 0px;
+}
+
 // Reduce font sizes
 // https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-326809412
 html {
