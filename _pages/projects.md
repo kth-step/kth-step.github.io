@@ -33,6 +33,13 @@ To improve the performance of processors, instruction pipelining is applied to h
 
 ## [P4 Formalization](p4)
 
+Software-Defined Networking (SDN) permits programming the data plane of
+the network devices using languages such as P4. This capability can impact
+network correctness due to error-prone programs. To address this, we have
+built a formalization of P4 semantics using the interactive theorem prover
+HOL4. This semantics allows us to analyse security properties in P4 packet
+forwarding programs.
+
 ## [SCAM-V](scam-v)
 
 ## [Cryptographic Protocol Verification](crypto-protocol)
