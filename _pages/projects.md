@@ -10,7 +10,7 @@ The Trustfull project is about trustworthy fullstack computing, i.e. it aims to 
 
 [Trutfull project's website](https://www.trustfull.proj.kth.se/){: .btn .btn--info}
 
-## HolBA - Formal Binary Analysis in HOL4
+## [HolBA - Formal Binary Analysis in HOL4](holba)
 {: #holba}
 
 HolBA is a platform for Binary Analysis in HOL4, a theorem prover.
@@ -21,18 +21,20 @@ HolBA is a platform for Binary Analysis in HOL4, a theorem prover.
 
 In the HolBA Multicore project we extend the HolBA's BIR with multicore semantics for RISC-V.
 
-### Microarchitectural Modelling and Verification 
+## [Microarchitectural Modelling and Verification](mil)
 
-## <a href="pipeline-processor">Verified Pipelined Processor</a>
+[MIL GitHub repository](https://github.com/kth-step/mil){: .btn .btn--info}
+
+## [Verified Pipelined Processor](pipeline-processor)
 
 ## CERCES/CERCES2, Pablo, Andreas
 
-## <a href="p4">P4 Formalization</a>
+## [P4 Formalization](p4)
 
-## <a href="scam-v">SCAM-V</a>
+## [SCAM-V](scam-v)
 
-## <a href="crypto-protocol">Cryptographic Protocol Verification</a>
+## [Cryptographic Protocol Verification](crypto-protocol)
 
-## <a href="separation-kernel/">Separation Kernel</a>
+## [Separation Kernel](separation-kernel)
 
 In this project we design, implement and verify a separation kernel for high-assurance real-time systems running on RISC-V.

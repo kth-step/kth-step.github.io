@@ -8,6 +8,10 @@ Welcome to the Secure and Trustworthy Execution Platforms (STEP) group at KTH!
 You can access thesis and publications in the dedicated [Publications page](/publications).
 {: .notice}
 
+- **2022-06-13**: [Ning Dong](/members) has his 50% seminar 13:15 in room 4523.
+- **2022-06-09**: STEP Retreat in Sigtuna.
+- **2022-06-02**: At SWITS, [Anoud Alshnakat](/members) presented a [formalization of P4](/projects/p4), and [Henrik Karlsson](/members) presented a poster on the a [separation kernel design](/projects/separation-kernel).
+- **2022-05-15**: HOL4 formalization of [MIL](/projects/mil) publicly released.
 - **2019-07-01**: New website.
 - **2019-06-24**: [Thomas Peterson](/members) joined the team for his Master Thesis, about Control-Flow Graph Reconstruction.
 - **2019-06-24**: KTH hosted the [EuroS&P 2019 conference](https://www.ieee-security.org/TC/EuroSP2019/) last week.

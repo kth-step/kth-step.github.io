@@ -1,5 +1,5 @@
 ---
-title: Side-Channel Abstract Model Verification (SCAM-V)
+title: "SCAM-V: Side-Channel Abstract Model Verification"
 permalink: /projects/scam-v/
 members:
   - Pablo Buiras
