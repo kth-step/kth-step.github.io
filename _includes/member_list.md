@@ -13,8 +13,12 @@
         {% else %}
         {{ member.name }}
         {% endif %}
-        </b><br/>
-        {{ member.position }}
+        </b>
+        {% if member.position and member.affiliation%}
+        <div style="font-size: 90%;">{{ member.position }}, {{ member.affiliation }}</div>
+        {% elsif member.position %}
+        <div style="font-size: 90%;">{{ member.position }}</div>
+        {% endif %}
 </div>
 {% endfor %}
 </div>

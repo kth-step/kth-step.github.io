@@ -17,9 +17,21 @@ HolBA is a platform for Binary Analysis in HOL4, a theorem prover.
 
 [HolBA's GitHub repository](https://github.com/kth-step/holba){: .btn .btn--info}
 
-## HolBA Multicore
+### Multicore
 
 In the HolBA Multicore project we extend the HolBA's BIR with multicore semantics for RISC-V.
+
+### Microarchitectural Modelling and Verification 
+
+## <a href="pipeline-processor">Verified Pipelined Processor</a>
+
+## CERCES/CERCES2, Pablo, Andreas
+
+## <a href="p4">P4 Formalization</a>
+
+## <a href="scam-v">SCAM-V</a>
+
+## <a href="crypto-protocol">Cryptographic Protocol Verification</a>
 
 ## <a href="separation-kernel/">Separation Kernel</a>
 

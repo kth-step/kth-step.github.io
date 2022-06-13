@@ -4,6 +4,7 @@ permalink: /projects/separation-kernel/
 members:
   - Henrik Karlsson
   - Roberto Guanciale
+  - Mads Dam
 ---
 
 <p>A typical software system consists of thousands of complex components that are often designed with security as an afterthought. The result is bugs and security holes, some of which allow adversaries to gain complete control of a remote system. As shown by the Spectre and Meltdown vulnerabilities, the situation is similar in the hardware. It shouldn’t be like this, and it doesn’t have to.</p>
