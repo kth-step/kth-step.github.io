@@ -32,3 +32,6 @@ This course serves as an introduction to cryptography from a computer security a
 ### [FDD3023 Interactive Theorem Proving and Program Verification 7.5 credits](https://www.kth.se/student/kurser/kurs/FDD3023)
 As software systems become more complex, ensuring that they adhere to given requirements for safety and reliability becomes more difficult. At the same time, individuals, organisations, and societies increasingly depend on such complex systems. Interactive theorem provers (ITPs) are powerful, flexible, and reliable tools for system modeling and formal verification. A growing use of ITPs is for specification and construction of practical and trustworthy large-scale software systems. This course gives an overview of the foundations and technologies for ITPs and how they can be applied to model, specify, and formally verify software systems, including both abstract system models and executable programs.
 
+## Teaching Material
+
+- HOL4 tutorial slides...
