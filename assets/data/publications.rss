@@ -1,0 +1,510 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>DiVA - Academic Archive On-line</title><link>https://www.diva-portal.org</link><description></description><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Amir M. Ahmadian</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
+   <title>Dynamic Policies Revisited</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-309603</link>
+   <pubDate>Mon, 7 Mar 2022 17:26:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-309603</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Cesar Soto Valero</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nicolas Harrand</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <title>A comprehensive study of bloated dependencies in the Maven ecosystem</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-293389</link>
+   <description>&lt;p&gt;Build automation tools and package managers have a profound influence on software development. They facilitate the reuse of third-party libraries, support a clear separation between the application's code and its external dependencies, and automate several software development tasks. However, the wide adoption of these tools introduces new challenges related to dependency management. In this paper, we propose an original study of one such challenge: the emergence of bloated dependencies. Bloated dependencies are libraries that are packaged with the application's compiled code but that are actually not necessary to build and run the application. They artificially grow the size of the built binary and increase maintenance effort. We propose DepClean, a tool to determine the presence of bloated dependencies in Maven artifacts. We analyze 9,639 Java artifacts hosted on Maven Central, which include a total of 723,444 dependency relationships. Our key result is as follows: 2.7% of the dependencies directly declared are bloated, 15.4% of the inherited dependencies are bloated, and 57% of the transitive dependencies of the studied artifacts are bloated. In other words, it is feasible to reduce the number of dependencies of Maven artifacts to 1/4 of its current count. Our qualitative assessment with 30 notable open-source projects indicates that developers pay attention to their dependencies when they are notified of the problem. They are willing to remove bloated dependencies: 21/26 answered pull requests were accepted and merged by developers, removing 140 dependencies in total: 75 direct and 65 transitive.&lt;/p&gt;</description>
+   <pubDate>Mon, 26 Apr 2021 14:14:23 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-293389</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zimin Chen</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Khashayar Etemadi</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Han Fu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Davide Ginelli</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Steve Kommrusch</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matias Martinez</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Javier Ron Arteaga</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">He Ye</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Zhongxing Yu</dc:creator>
+   <title>A Software-Repair Robot Based on Continual Learning</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-299103</link>
+   <description>&lt;p&gt;Software bugs are common, and correcting them accounts for a significant portion of the costs in the software development and maintenance process. In this article, we discuss R-Hero, our novel system for learning how to fix bugs based on continual training.&lt;/p&gt;</description>
+   <pubDate>Thu, 5 Aug 2021 14:04:36 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-299103</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">He Ye</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jian Gu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">M. Martinez</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Durieux</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>Automated Classification of Overfitting Patches with Statically Extracted Code Features</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-308879</link>
+   <description>&lt;p&gt;Automatic program repair (APR) aims to reduce the cost of manually fixing software defects. However, APR suffers from generating a multitude of overfitting patches, those patches that fail to correctly repair the defect beyond making the tests pass. This paper presents a novel overfitting patch detection system called ODS to assess the correctness of APR patches. ODS first statically compares a patched program and a buggy program in order to extract code features at the abstract syntax tree (AST) level. Then, ODS uses supervised learning with the captured code features and patch correctness labels to automatically learn a probabilistic model. The learned ODS model can then finally be applied to classify new and unseen program repair patches. We conduct a large-scale experiment to evaluate the effectiveness of ODS on patch correctness classification based on 10,302 patches from Defects4J, Bugs.jar and Bears benchmarks. The empirical evaluation shows that ODS is able to correctly classify 71.9% of program repair patches from 26 projects, which improves the state-of-the-art. ODS is applicable in practice and can be employed as a post-processing procedure to classify the patches generated by different APR systems. &lt;/p&gt;</description>
+   <pubDate>Wed, 16 Feb 2022 10:58:36 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-308879</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">He Ye</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matias Martinez</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>Automated patch assessment for program repair at scale</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-292295</link>
+   <description>&lt;p&gt;In this paper, we do automatic correctness assessment for patches generated by program repair systems. We consider the human-written patch as ground truth oracle and randomly generate tests based on it, a technique proposed by Shamshiri et al., called Random testing with Ground Truth (RGT) in this paper. We build a curated dataset of 638 patches for Defects4J generated by 14 state-of-the-art repair systems, we evaluate automated patch assessment on this dataset. The results of this study are novel and significant: First, we improve the state of the art performance of automatic patch assessment with RGT by 190% by improving the oracle; Second, we show that RGT is reliable enough to help scientists to do overfitting analysis when they evaluate program repair systems; Third, we improve the external validity of the program repair knowledge with the largest study ever.&lt;/p&gt;</description>
+   <pubDate>Tue, 6 Apr 2021 12:53:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-292295</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Javier Cabrera Arteaga</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Orestis Floros</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Oscar Vera Perez</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>CROW: Code Diversification for WebAssembly</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-292642</link>
+   <description>&lt;p&gt;The adoption of WebAssembly increases rapidly, as it provides a fast and safe model for program execution in the browser. However, WebAssembly is not exempt from vulnerabilities that can be exploited by malicious observers. Code diversification can mitigate some of these attacks. In this paper, we present the first fully automated workflow for the diversification of WebAssembly binaries. We present CROW, an open-source tool implementing this workflow through enumerative synthesis of diverse code snippets expressed in the LLVMintermediate representation. We evaluate CROW’s capabilitieson303C programs and study its use on a real-life security-sensitive program: libsodium, a modern cryptographic library. Overall, CROW is able to generate diverse variants for239out of303 (79%)small programs. Furthermore, our experiments show that our approach and tool is able to successfully diversify off-the-shelf cryptographic software (libsodium).&lt;/p&gt;</description>
+   <pubDate>Sun, 11 Apr 2021 16:38:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-292642</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aditya Oak</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Amir M. Ahmadian</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Guido Salvaneschi</dc:creator>
+   <title>Enclave-Based Secure Programming with JE</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-301750</link>
+   <pubDate>Fri, 10 Sep 2021 19:10:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-301750</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Massimo Merro</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Michele Pasqua</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mikhail Shcherbakov</dc:creator>
+   <title>Friendly Fire : Cross-App Interactions in IoT Platforms</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-288489</link>
+   <description>&lt;p&gt;IoT platforms enable users to connect various smart devices and online services via reactive apps running onthe cloud. These apps, often developed by third-parties, perform simple computations on data triggered byexternal information sources and actuate the results of computations on external information sinks. Recentresearch shows that unintended or malicious interactions between the different (even benign) apps of a usercan cause severe security and safety risks. These works leverage program analysis techniques to build toolsfor unveiling unexpected interference across apps for specific use cases. Despite these initial efforts, we arestill lacking a semantic framework for understanding interactions between IoT apps. The question of whatsecurity policy cross-app interference embodies remains largely unexplored.This paper proposes a semantic framework capturing the essence of cross-app interactions in IoT platforms.The framework generalizes and connects syntactic enforcement mechanisms to bisimulation-based notionsof security, thus providing a baseline for formulating soundness criteria of these enforcement mechanisms.Specifically, we present a calculus that models the behavioral semantics of a system of apps executingconcurrently, and use it to define desirable semantic policies targeting the security and safety of IoT apps.To demonstrate the usefulness of our framework, we define and implement static analyses for enforcingcross-app security and safety, and prove them sound with respect to our semantic conditions. We also leveragereal-world apps to validate the practical benefits of our tools based on the proposed enforcement mechanisms.&lt;/p&gt;</description>
+   <pubDate>Mon, 4 Jan 2021 14:45:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-288489</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">P. Muntean</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">H. Sun</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">J. Grossklags</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">C. Eckert</dc:creator>
+   <title>IntRepair : Informed Repairing of Integer Overflows</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-268463</link>
+   <description>&lt;p&gt;Integer overflows have threatened software applications for decades. Thus, in this paper, we propose a novel technique to provide automatic repairs of integer overflows in C source code. Our technique, based on static symbolic execution, fuses detection, repair generation and validation. This technique is implemented in a prototype named IntRepair. We applied IntRepair to 2,052 C programs (approx. 1 million lines of code) contained in SAMATE&amp;amp;#x0027;s Juliet test suite and 50 synthesized programs that range up to 20 KLOC. Our experimental results show that IntRepair is able to effectively detect integer overflows and successfully repair them, while only increasing the source code (LOC) and binary (Kb) size by around 1%, respectively. Furthermore, we present the results of a user study with 30 participants showing that IntRepair repairs are more efficient than manual repairs. &lt;/p&gt;</description>
+   <pubDate>Wed, 8 Apr 2020 13:33:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-268463</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jesper Simonsson</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Long Zhang</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brice Morin</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>Observability and Chaos Engineering on System Calls for Containerized Applications in Docker</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-263699</link>
+   <description>&lt;p&gt;In this paper, we present a novel fault injection system called ChaosOrca for system calls in containerized applications. ChaosOrca aims at evaluating a given application's self-protection capability with respect to system call errors. The unique feature of ChaosOrca is that it conducts experiments under production-like workload without instrumenting the application. We exhaustively analyze all kinds of system calls and utilize different levels of monitoring techniques to reason about the behaviour under perturbation. We evaluate ChaosOrca on three real-world applications: a file transfer client, a reverse proxy server and a micro-service oriented web application. Our results show that it is promising to detect weaknesses of resilience mechanisms related to system calls issues.&lt;/p&gt;</description>
+   <pubDate>Fri, 8 Nov 2019 16:36:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-263699</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emilio Tuosto</dc:creator>
+   <title>PomCho : Atool chain for choreographic design</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-289099</link>
+   <description>&lt;p&gt;We present a tool chain for model-driven development of asynchronous message-passing applications. The key features of the tool allow designers to identify misbehaviour leading to unsound communications, to provide counterexamples, and to suggest possible corrections as well as to project global specifications to local models in order to generate executable implementations.&lt;/p&gt;</description>
+   <pubDate>Wed, 20 Jan 2021 11:08:33 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-289099</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ning Dong</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mads Dam</dc:creator>
+   <title>Refinement-Based Verification of Device-to-Device Information Flow</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-303933</link>
+   <description>&lt;p&gt;I/O devices are the critical components that allow a computing system to communicate with the external environment. From the perspective of a device, interactions can be divided into two parts, with the processor (mainly memory operations by the driver) and through the communication medium with external devices. In this paper, we present an abstract model of I/O devices and their drivers to describe the expected results of their execution, where the communication between devices is made explicit and the device-to-device information flow is analyzed. In order to handle general I/O functionalities, both half-duplex (transmission and reception) and full-duplex (sending and receiving simultaneously) data transmissions are considered. We propose a refinement-based approach that concretizes a correct-by-construction abstract model into an actual hardware device and its driver. As an example, we formalize the Serial Peripheral Interface (SPI) with a driver. In the HOL4 interactive theorem prover, we verified the refinement between these models by establishing a weak bisimulation. We show how this result can be used to establish both functional correctness and information flow security for both single devices and when devices are connected in an end-to-end fashion.&lt;/p&gt;</description>
+   <pubDate>Fri, 29 Oct 2021 11:03:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-303933</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mohammad M. Ahmadpanah</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Daniel Hedin</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Lars Eric Olsson</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Andrei Sabelfeld</dc:creator>
+   <title>SandTrap: Securing JavaScript-driven Trigger-Action Platforms</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-295511</link>
+   <pubDate>Fri, 28 May 2021 16:55:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-295511</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Marcus Birgersson</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Cyrille Artho</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
+   <title>Security-Aware Multi-User Architecture for IoT</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-305259</link>
+   <pubDate>Wed, 24 Nov 2021 11:50:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-305259</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mikhail Shcherbakov</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
+   <title>SerialDetector: Principled and Practical Exploration of Object Injection Vulnerabilities for the Web</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-288522</link>
+   <description>&lt;p&gt;The last decade has seen a proliferation of code-reuse attacks in the context of web applications. These at-tacks stem from Object Injection Vulnerabilities (OIV) enablingattacker-controlled data to abuse legitimate code fragmentswithin a web application’s codebase to execute a code chain(gadget) that performs malicious computations, like remote codeexecution, on attacker’s behalf. OIVs occur when untrusted datais used to instantiate an object of attacker-controlled type withattacker-chosen properties, thus triggering the execution of codeavailable but not necessarily used by the application. In theweb application domain, OIVs may arise during the processof deserialization of client-side data, e.g., HTTP requests, whenreconstructing the object graph that is subsequently processedby the backend applications on the server side.This paper presents the first systematic approach for de-tecting and exploiting OIVs in .NET applications including theframework and libraries. Our key insight is: The root cause ofOIVs is the untrusted information flow from an application’spublic entry points (e.g., HTTP request handlers) to sensitivemethods that create objects of arbitrary types (e.g., reflectionAPIs) to invoke methods (e.g., native/virtual methods) that triggerthe execution of a gadget. Drawing on this insight, we developand implement SerialDetector, a taint-based dataflow analysisthat discovers OIV patterns in .NET assemblies automatically.We then use these patterns to match publicly available gadgetsand to automatically validate the feasibility of OIV attacks.We demonstrate the effectiveness of our approach by an in-depth evaluation of a complex production software such as theAzure DevOps Server. We describe the key threat models andreport on several remote code execution vulnerabilities found bySerialDetector, including three CVEs on Azure DevOps Server.We also perform an in-breadth security analysis of recent publiclyavailable CVEs. Our results show that SerialDetector can detectOIVs effectively and efficiently. We release our tool publicly tosupport open science and encourage researchers and practitionersexplore the topic further&lt;/p&gt;</description>
+   <pubDate>Thu, 7 Jan 2021 18:45:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-288522</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rodothea Myrsini Tsoupidi</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <title>Vivienne : Relational Verification of Cryptographic Implementations in WebAssembly</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-300966</link>
+   <description>&lt;p&gt;We investigate the use of relational symbolic execution to counter timing side channels in WebAssembly programs.We design and implement VIVIENNE, an open-source tool toautomatically analyze WebAssembly cryptographic libraries forconstant-time violations. Our approach features various optimizations that leverage the structure of WebAssembly andautomated theorem provers, including support for loops viarelational invariants. We evaluate Vivienne on 57 real-worldcryptographic implementations, including a previously unverifiedimplementation of the HACL* library in WebAssembly. Theresults indicate that Vivienne is a practical solution for constanttime analysis of cryptographic libraries in WebAssembly.&lt;/p&gt;</description>
+   <pubDate>Fri, 3 Sep 2021 10:20:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-300966</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">P. Laperdrix</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">N. Bielova</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">G. Avoine</dc:creator>
+   <title>Browser Fingerprinting : A Survey</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-291326</link>
+   <description>&lt;p&gt;With this article, we survey the research performed in the domain of browser fingerprinting, while providing an accessible entry point to newcomers in the field. We explain how this technique works and where it stems from. We analyze the related work in detail to understand the composition of modern fingerprints and see how this technique is currently used online. We systematize existing defense solutions into different categories and detail the current challenges yet to overcome.&lt;/p&gt;</description>
+   <pubDate>Mon, 15 Mar 2021 15:06:20 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-291326</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Iulia Bastys</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tamara Rezk</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Andrei Sabelfeld</dc:creator>
+   <title>Clockwork : Tracking Remote Timing Attacks</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-273162</link>
+   <description>&lt;p&gt;Timing leaks have been a major concern for the security community. A common approach is to prevent secrets from affecting the execution time, thus achieving security with respect to a strong, local attacker who can measure the timing of program runs. However, this approach becomes restrictive as soon as programs branch on a secret. This paper focuses on timing leaks under remote execution. A key difference is that the remote attacker does not have a reference point of when a program run has started or finished, which significantly restricts attacker capabilities. We propose an extensional security characterization that captures the essence of remote timing attacks. We identify patterns of combining clock access, secret branching, and output in a way that leads to timing leaks. Based on these patterns, we design Clockwork, a monitor that rules out remote timing leaks. We implement the approach for JavaScript, leveraging JSFlow, a state-of-the-art information flow tracker. We demonstrate the feasibility of the approach on case studies with IFTTT, a popular IoT app platform, and VJSC, an advanced JavaScript library for e-voting.&lt;/p&gt;</description>
+   <pubDate>Fri, 8 May 2020 14:20:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-273162</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rodothea Myrsini Tsoupidi</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Castañeda Lozano</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <title>Constraint-Based Software Diversification for Efficient Mitigation of Code-Reuse Attacks</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-285330</link>
+   <description>&lt;p&gt;Modern software deployment process produces software that is uniform, and hence vulnerable to large-scale code-reuse attacks. Compiler-based diversification improves the resilience and security of software systems by automatically generating different assembly code versions of a given program. Existing techniques are efficient but do not have a precise control over the quality of the generated code variants. This paper introduces Diversity by Construction (DivCon), a constraint-based compiler approach to software diversification. Unlike previous approaches, DivCon allows users to control and adjust the conflicting goals of diversity and code quality. A key enabler is the use of Large Neighborhood Search (LNS) to generate highly diverse assembly code efficiently.� Experiments using two popular compiler benchmark suites confirm that there is a trade-off between quality of each assembly code version and diversity of the entire pool of versions. Our results show that DivCon allows users to trade between these two properties by generating diverse assembly code for a range of quality bounds. In particular, the experiments show that DivCon is able to mitigate code-reuse attacks effectively while delivering near-optimal code (optimality gap). For constraint programming researchers and practitioners, this paper demonstrates that LNS is a valuable technique for finding diverse solutions. For security researchers and software engineers, DivCon extends the scope of compiler-based diversification to performance-critical and resource-constrained applications. © 2020, Springer Nature Switzerland AG.&lt;/p&gt;</description>
+   <pubDate>Tue, 1 Dec 2020 16:01:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-285330</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pengyu Nie</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Karl Palmskog</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Junyi Jessy Li</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Milos Gligoric</dc:creator>
+   <title>Deep Generation of Coq Lemma Names Using Elaborated Terms</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279639</link>
+   <description>&lt;p&gt;Coding conventions for naming, spacing, and other essentially stylistic properties are necessary for developers to effectively understand, review, and modify source code in large software projects. Consistent conventions in verification projects based on proof assistants, such as Coq, increase in importance as projects grow in size and scope. While conventions can be documented and enforced manually at high cost, emerging approaches automatically learn and suggest idiomatic names in Java-like languages by applying statistical language models on large code corpora. However, due to its powerful language extension facilities and fusion of type checking and computation, Coq is a challenging target for automated learning techniques. We present novel generation models for learning and suggesting lemma names for Coq projects. Our models, based on multi-input neural networks, are the first to leverage syntactic and semantic information from Coq ’s lexer (tokens in lemma statements), parser (syntax tree s), and kernel (elaborated terms) for naming; the key insight is that learning from elaborated terms can substantially boost model performance. We implemented our models in a toolchain, dubbed Roosterize, and applied it on a large corpus of code derived from the Mathematical Components family of projects, known for its stringent coding conventions. Our results show that Roosterize substantially outperforms baselines for suggesting lemma names, highlighting the importance of using multi-input models and elaborated terms.&lt;/p&gt;</description>
+   <pubDate>Wed, 26 Aug 2020 12:07:58 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279639</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anil Koyuncu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kui Liu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tegawende F. Bissyande</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dongsun Kim</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jacques Klein</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Yves Le Traon</dc:creator>
+   <title>FixMiner : Mining relevant fix patterns for automated program repair</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-273899</link>
+   <description>&lt;p&gt;Patching is a common activity in software development. It is generally performed on a source code base to address bugs or add new functionalities. In this context, given the recurrence of bugs across projects, the associated similar patches can be leveraged to extract generic fix actions. While the literature includes various approaches leveraging similarity among patches to guide program repair, these approaches often do not yield fix patterns that are tractable and reusable as actionable input to APR systems. In this paper, we propose a systematic and automated approach to mining relevant and actionable fix patterns based on an iterative clustering strategy applied to atomic changes within patches. The goal of FixMiner is thus to infer separate and reusable fix patterns that can be leveraged in other patch generation systems. Our technique, FixMiner, leverages Rich Edit Script which is a specialized tree structure of the edit scripts that captures the AST-level context of the code changes. FixMiner uses different tree representations of Rich Edit Scripts for each round of clustering to identify similar changes. These are abstract syntax trees, edit actions trees, and code context trees. We have evaluated FixMiner on thousands of software patches collected from open source projects. Preliminary results show that we are able to mine accurate patterns, efficiently exploiting change information in Rich Edit Scripts. We further integrated the mined patterns to an automated program repair prototype, PAR(FixMiner), with which we are able to correctly fix 26 bugs of the Defects4J benchmark. Beyond this quantitative performance, we show that the mined fix patterns are sufficiently relevant to produce patches with a high probability of correctness: 81% of PAR(FixMiner)'s generated plausible patches are correct.&lt;/p&gt;</description>
+   <pubDate>Fri, 5 Jun 2020 11:16:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-273899</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Durieux</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Youssef Hamadi</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>Fully Automated HTML and JavaScript Rewriting for Constructing a Self-healing Web Proxy</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-270897</link>
+   <description>&lt;p&gt;Over the last few years, the complexity of web applications has increased to provide more dynamic web applications to users. The drawback of this complexity is the growing number of errors in the front-end applications. In this paper, we present an approach to provide self-healing for the web. We implemented this approach in two different tools: (i) BikiniProxy, an HTTP repair proxy, and (ii) BugBlock, a browser extension. They use five self-healing strategies to rewrite the buggy HTML and JavaScript code to handle errors in web pages. We evaluate BikiniProxy and BugBlock with a new benchmark of 555 reproducible JavaScript errors of which 31.76% can be automatically self-healed by BikiniProxy and 15.67% by BugBlock.&lt;/p&gt;</description>
+   <pubDate>Tue, 24 Mar 2020 17:46:18 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-270897</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Didrik Lundberg</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Andreas Lindner</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mads Dam</dc:creator>
+   <title>Hoare-Style Logic for Unstructured Programs</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-281691</link>
+   <description>&lt;p&gt;Enabling Hoare-style reasoning for low-level code is attractive since it opens the way to regain structure and modularity in a domain where structure is essentially absent. The field, however, has not yet arrived at a fully satisfactory solution, in the sense of avoiding restrictions on control flow (important for compiler optimization), controlling access to intermediate program points (important for modularity), and supporting total correctness. Proposals in the literature support some of these properties, but a solution that meets them all is yet to be found. We introduce the novel Hoare-style program logic &lt;img src="http://www.diva-portal.org/cgi-bin/mimetex.cgi?%5Cmathcal%7BL%7D_A" /&gt;, which interprets postconditions relative to program points when these are first encountered. The logic can support both partial and total correctness, derive contracts for arbitrary control flow, and allows one to freely choose decomposition strategy during verification while avoiding step-indexed approximations and global invariants. The logic can be instantiated for a variety of concrete instruction set architectures and intermediate languages. The rules of &lt;img src="http://www.diva-portal.org/cgi-bin/mimetex.cgi?%5Cmathcal%7BL%7D_A" /&gt; have been verified in the interactive theorem prover HOL4 and integrated with the toolbox HolBA for semi-automated program verification, making it applicable to the ARMv6 and ARMv8 instruction sets.&lt;/p&gt;</description>
+   <pubDate>Mon, 21 Sep 2020 12:14:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-281691</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mads Dam</dc:creator>
+   <title>InSpectre : Breaking and Fixing Microarchitectural Vulnerabilities by Formal Analysis</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-288690</link>
+   <description>&lt;p&gt;The recent Spectre attacks have demonstrated the fundamental insecurity of current computer microarchitecture. The attacks use features like pipelining, out-of-order and speculation to extract arbitrary information about the memory contents of a process. A comprehensive formal microarchitectural model capable of representing the forms of out-of-order and speculative behavior that can meaningfully be implemented in a high performance pipelined architecture has not yet emerged. Such a model would be very useful, as it would allow the existence and non-existence of vulnerabilities, and soundness of countermeasures to be formally established. This paper presents such a model targeting single core processors. The model is intentionally very general and provides an infrastructure to define models of real CPUs. It incorporates microarchitectural features that underpin all known Spectre vulnerabilities. We use the model to elucidate the security of existing and new vulnerabilities, as well as to formally analyze the effectiveness of proposed countermeasures. Specifically, we discover three new (potential) vulnerabilities, including a new variant of Spectre v4, a vulnerability on speculative fetching, and a vulnerability on out-of-order execution, and analyze the effectiveness of existing countermeasures including constant time and serializing instructions.  &lt;/p&gt;</description>
+   <pubDate>Mon, 11 Jan 2021 11:26:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-288690</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nicolas Harrand</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">César Soto Valero</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <title>Java decompiler diversity and its application to meta-decompilation</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279880</link>
+   <description>&lt;p&gt;During compilation from Java source code to bytecode, some information is irreversibly lost. In other words, compilation and decompilation of Java code is not symmetric. Consequently, decompilation, which aims at producing source code from bytecode, relies on strategies to reconstruct the information that has been lost. Different Java decompilers use distinct strategies to achieve proper decompilation. In this work, we hypothesize that the diverse ways in which bytecode can be decompiled has a direct impact on the quality of the source code produced by decompilers. In this paper, we assess the strategies of eight Java decompilers with respect to three quality indicators: syntactic correctness, syntactic distortion and semantic equivalence modulo inputs. Our results show that no single modern decompiler is able to correctly handle the variety of bytecode structures coming from real-world programs. The highest ranking decompiler in this study produces syntactically correct, and semantically equivalent code output for 84%, respectively 78%, of the classes in our dataset. Our results demonstrate that each decompiler correctly handles a different set of bytecode classes. We propose a new decompiler called Arlecchino that leverages the diversity of existing decompilers. To do so, we merge partial decompilation into a new one based on compilation errors. Arlecchino handles 37.6% of bytecode classes that were previously handled by no decompiler. We publish the sources of this new bytecode decompiler. (C) 2020 Published by Elsevier Inc.&lt;/p&gt;</description>
+   <pubDate>Tue, 15 Sep 2020 13:05:46 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279880</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kush Jain</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Karl Palmskog</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ahmet Celik</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emilio Jesús Gallego Arias</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Milos Gligoric</dc:creator>
+   <title>mCoq: Mutation Analysis for Coq Verification Projects</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-286278</link>
+   <description>&lt;p&gt;Software developed and verified using proof assistants, such as Coq, can provide trustworthiness beyond that of software developed using traditional programming languages and testing practices. However, guarantees from formal verification are only as good as the underlying definitions and specification properties. If properties are incomplete, flaws in definitions may not be captured during verification, which can lead to unexpected system behavior and failures. Mutation analysis is a general technique for evaluating specifications for adequacy and completeness, based on making small-scale changes to systems and observing the results. We demonstrate mCoq, the first mutation analysis tool for Coq projects. mCoq changes Coq definitions, with each change producing a modified project version, called a mutant, whose proofs are exhaustively checked. If checking succeeds, i.e., the mutant is live, this may indicate specification incompleteness. Since proof checking can take a long time, we optimized mCoq to perform incremental and parallel processing of mutants. By applying mCoq to popular Coq libraries, we found several instances of incomplete and missing specifications manifested as live mutants. We believe mCoq can be useful to proof engineers and researchers for analyzing software verification projects. The demo video for mCoq can be viewed at: https://youtu.be/QhigpfQ7dNo.&lt;/p&gt;</description>
+   <pubDate>Tue, 24 Nov 2020 06:32:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-286278</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Karl Palmskog</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ahmet Celik</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Milos Gligoric</dc:creator>
+   <title>Practical Machine-Checked Formalization of Change Impact Analysis</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279637</link>
+   <description>&lt;p&gt;Change impact analysis techniques determine the components affected by a change to a software system, and are used as part of many program analysis techniques and tools, e.g., in regression test selection, build systems, and compilers. The correctness of such analyses usually depends both on domain-specific properties and change impact analysis, and is rarely established formally, which is detrimental to trustworthiness. We present a formalization of change impact analysis with machine-checked proofs of correctness in the Coq proof assistant. Our formal model factors out domain-specific concerns and captures system components and their interrelations in terms of dependency graphs. Using compositionality, we also capture hierarchical impact analysis formally for the first time, which, e.g., can capture when impacted files are used to locate impacted tests inside those files. We refined our verified impact analysis for performance, extracted it to efficient executable OCaml code, and integrated it with a regression test selection tool, one regression proof selection tool, and one build system, replacing their existing impact analyses. We then evaluated the resulting toolchains on several open source projects, and our results show that the toolchains run with only small differences compared to the original running time. We believe our formalization can provide a basis for formally proving domain-specific techniques using change impact analysis correct, and our verified code can be integrated with additional tools to increase their reliability.&lt;/p&gt;</description>
+   <pubDate>Wed, 26 Aug 2020 12:03:18 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279637</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Javier Cabrera Arteaga</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Shrinish Donde</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jian Gu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Orestis Floros</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Lucas Satabin</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>Superoptimization of WebAssembly bytecode</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-280046</link>
+   <description>&lt;p&gt;Motivated by the fast adoption of WebAssembly, we propose the first functional pipeline to support the superoptimization of WebAssembly bytecode. Our pipeline works over LLVM and Souper. We evaluate our superoptimization pipeline with 12 programs from the Rosetta code project. Our pipeline improves the code section size of 8 out of 12 programs. We discuss the challenges faced in superoptimization of WebAssembly with two case studies.&lt;/p&gt;</description>
+   <pubDate>Wed, 2 Sep 2020 13:53:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-280046</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musab A. Alturki</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jing Chen</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Victor Luchangco</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Brandon Moore</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Karl Palmskog</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Lucas Peña</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Grigore Roşu</dc:creator>
+   <title>Towards a Verified Model of the Algorand Consensus Protocol in Coq</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279635</link>
+   <description>&lt;p&gt;The Algorand blockchain is a secure and decentralized public ledger based on pure proof of stake rather than proof of work. At its core it is a novel consensus protocol with exactly one block certified in each round: that is, the protocol guarantees that the blockchain does not fork. In this paper, we report on our effort to model and formally verify the Algorand consensus protocol in the Coq proof assistant. Similar to previous consensus protocol verification efforts, we model the protocol as a state transition system and reason over reachable global states. However, in contrast to previous work, our model explicitly incorporates timing issues (e.g., timeouts and network delays) and adversarial actions, reflecting a more realistic environment faced by a public blockchain.&lt;/p&gt;</description>
+   <pubDate>Wed, 26 Aug 2020 11:59:26 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279635</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jonas Haglund</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <title>Trustworthy isolation of DMA devices</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-283540</link>
+   <description>&lt;p&gt;We present a mechanism to trustworthy isolate I/O devices with direct memory access (DMA), which ensures that an isolated I/O device cannot access sensitive memory regions. As a demonstrating platform, we use the network interface controller (NIC) of an embedded system. We develop a run-time monitor that forces NIC reconfigurations, defined by untrusted software, to satisfy a security rule. We formalized the NIC in the HOL4 interactive theorem prover and we verified the design of the isolation mechanism. The verification is based on an invariant that is proved to be preserved by all NIC operations and that ensures that all memory accesses address allowed memory regions only. We demonstrate our approach by extending an existing Virtual Machine Introspection (VMI) with the monitor. The resulting platform prevents code injection in a connected and untrusted Linux.&lt;/p&gt;</description>
+   <pubDate>Wed, 7 Oct 2020 13:18:12 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-283540</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">He Ye</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matias Martinez</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Thomas Durieux</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>A Comprehensive Study of Automatic Program Repair on the QuixBugs Benchmark</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-252426</link>
+   <description>&lt;p&gt;Automatic program repair papers tend to repeatedly use the same benchmarks. This poses a threat to the external validity of the findings of the program repair research community. In this paper, we perform an automatic repair experiment on a benchmark called QuixBugs that has never been studied in the context of program repair. In this study, we report on the characteristics of QuixBugs, and study five repair systems, Arja, Astor, Nopol, NPEfix and RSRepair, which are representatives of generate-and-validate repair techniques and synthesis repair techniques. We propose three patch correctness assessment techniques to comprehensively study overfitting and incorrect patches. Our key results are: 1) 15 / 40 buggy programs in the QuixBugs can be repaired with a test-suite adequate patch; 2) a total of 64 plausible patches for those 15 buggy programs in the QuixBugs are present in the search space of the considered tools; 3) the three patch assessment techniques discard in total 33 / 64 patches that are overfitting. This sets a baseline for future research of automatic repair on QuixBugs. Our experiment also highlights the major properties and challenges of how to perform automated correctness assessment of program repair patches. All experimental results are publicly available on Github in order to facilitate future research on automatic program repair.&lt;/p&gt;</description>
+   <pubDate>Fri, 14 Jun 2019 11:01:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-252426</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nicolas Harrand</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Simon Allier</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Marcelino Rodriguez-Cancio</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <title>A journey among Java neutral program variants</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-264174</link>
+   <description>&lt;p&gt;Neutral program variants are alternative implementations of a program, yet equivalent with respect to the test suite. Techniques such as approximate computing or genetic improvement share the intuition that potential for enhancements lies in these acceptable behavioral differences (e.g., enhanced performance or reliability). Yet, the automatic synthesis of neutral program variants, through program transformations remains a key challenge. This work aims at characterizing plastic code regions in Java programs, i.e., the code regions that are modifiable while maintaining functional correctness, according to a test suite. Our empirical study relies on automatic variations of 6 real-world Java programs. First, we transform these programs with three state-of-the-art program transformations: add, replace and delete statements. We get a pool of 23,445 neutral variants, from which we gather the following novel insights: developers naturally write code that supports fine-grain behavioral changes; statement deletion is a surprisingly effective program transformation; high-level design decisions, such as the choice of a data structure, are natural points that can evolve while keeping functionality. Second, we design 3 novel program transformations, targeted at specific plastic regions. New experiments reveal that respectively 60%, 58% and 73% of the synthesized variants (175,688 in total) are neutral and exhibit execution traces that are different from the original.&lt;/p&gt;</description>
+   <pubDate>Fri, 22 Nov 2019 12:39:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-264174</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">T. Durieux</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">R. Abreu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">T. F. Bissyande</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">L. Cruz</dc:creator>
+   <title>An Analysis of 35+ Million Jobs of Travis CI</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-272358</link>
+   <description>&lt;p&gt;Travis CI handles automatically thousands of builds every day to, amongst other things, provide valuable feedback to thousands of open-source developers. In this paper, we investigate Travis CI to firstly understand who is using it, and when they start to use it. Secondly, we investigate how the developers use Travis CI and finally, how frequently the developers change the Travis CI configurations. We observed during our analysis that the main users of Travis CI are corporate users such as Microsoft. And the programming languages used in Travis CI by those users do not follow the same popularity trend than on GitHub, for example, Python is the most popular language on Travis CI, but it is only the third one on GitHub. We also observe that Travis CI is set up on average seven days after the creation of the repository and the jobs are still mainly used (60%) to run tests. And finally, we observe that 7.34% of the commits modify the Travis CI configuration. We share the biggest benchmark of Travis CI jobs (to our knowledge): It contains 35,793,144 jobs from 272,917 different GitHub projects.&lt;/p&gt;</description>
+   <pubDate>Wed, 13 May 2020 17:21:42 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-272358</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">M. Martinez</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>Astor : Exploring the design space of generate-and-validate program repair beyond GenProg</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-246440</link>
+   <description>&lt;p&gt;This article contributes to defining the design space of program repair. Repair approaches can be loosely characterized according to the main design philosophy, in particular “generate- and-validate” and synthesis-based approaches. Each of those repair approaches is a point in the design space of program repair. Our goal is to facilitate the design, development and evaluation of repair approaches by providing a framework that: a) contains components commonly present in most approaches, b) provides built-in implementations of existing repair approaches. This paper presents a Java framework named Astor that focuses on the design space of generate-and-validate repair approaches. The key novelty of Astor is to provides explicit extension points to explore the design space of program repair. Thanks to those extension points, researchers can both reuse existing program repair components and implement new ones. Astor includes 6 unique implementations of repair approaches in Java, including GenProg for Java called jGenProg. Researchers have already defined new approaches over Astor. The implementations of program repair approaches built already available in Astor are capable of repairing, in total, 98 real bugs from 5 large Java programs. Astor code is publicly available on Github: https://github.com/SpoonLabs/astor.&lt;/p&gt;</description>
+   <pubDate>Fri, 29 Mar 2019 10:17:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-246440</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benjamin Danglot</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Oscar Luis Vera-Perez</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>Automatic test improvement with DSpot : a study with ten mature open-source projects</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-256259</link>
+   <description>&lt;p&gt;In the literature, there is a rather clear segregation between manually written tests by developers and automatically generated ones. In this paper, we explore a third solution: to automatically improve existing test cases written by developers. We present the concept, design and implementation of a system called DSpot, that takes developer-written test cases as input (JUnit tests in Java) and synthesizes improved versions of them as output. Those test improvements are given back to developers as patches or pull requests, that can be directly integrated in the main branch of the test code base. We have evaluated DSpot in a deep, systematic manner over 40 real-world unit test classes from 10 notable and open-source software projects. We have amplified all test methods from those 40 unit test classes. In 26/40 cases, DSpot is able to automatically improve the test under study, by triggering new behaviors and adding new valuable assertions. Next, for ten projects under consideration, we have proposed a test improvement automatically synthesized by DSpot to the lead developers. In total, 13/19 proposed test improvements were accepted by the developers and merged into the main code base. This shows that DSpot is capable of automatically improving unit-tests in real-world, large scale Java software.&lt;/p&gt;</description>
+   <pubDate>Fri, 25 Oct 2019 15:12:43 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-256259</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">F. Madeiral</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S. Urli</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">M. Maia</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>BEARS : An Extensible Java Bug Benchmark for Automatic Program Repair Studies</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-252215</link>
+   <description>&lt;p&gt;Benchmarks of bugs are essential to empirically evaluate automatic program repair tools. In this paper, we present BEARS, a project for collecting and storing bugs into an extensible bug benchmark for automatic repair studies in Java. The collection of bugs relies on commit building state from Continuous Integration (CI) to find potential pairs of buggy and patched program versions from open-source projects hosted on GitHub. Each pair of program versions passes through a pipeline where an attempt of reproducing a bug and its patch is performed. The core step of the reproduction pipeline is the execution of the test suite of the program on both program versions. If a test failure is found in the buggy program version candidate and no test failure is found in its patched program version candidate, a bug and its patch were successfully reproduced. The uniqueness of Bears is the usage of CI (builds) to identify buggy and patched program version candidates, which has been widely adopted in the last years in open-source projects. This approach allows us to collect bugs from a diversity of projects beyond mature projects that use bug tracking systems. Moreover, BEARS was designed to be publicly available and to be easily extensible by the research community through automatic creation of branches with bugs in a given GitHub repository, which can be used for pull requests in the BEARS repository. We present in this paper the approach employed by BEARS, and we deliver the version 1.0 of BEARS, which contains 251 reproducible bugs collected from 72 projects that use the Travis CI and Maven build environment.&lt;/p&gt;</description>
+   <pubDate>Tue, 11 Jun 2019 14:11:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-252215</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <title>DiRPOMS: Automatic Checker of Distributed Realizability of POMSets</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-261173</link>
+   <description>&lt;p&gt;DiRPOMS permits to verify if the specification of a distributed system can be faithfully realised via distributed agents that communicate using asynchronous message passing. A distinguishing feature of DiRPOMS is the usage of set of pomsets to specify the distributed system. This provides two benefits: syntax obliviousness and efficiency. By defining the semantics of a coordination language in term of pomsets, it is possible to use DiRPOMS for several coordination models. Also, DiRPOMS can analyze pomsets extracted by system logs, when the coordination model is unknown, and therefore can support coordination mining activities. Finally, by using sets of pomsets in place of flat languages, DiRPOMS can reduce exponential blows of analysis that is typical in case of multiple threads due to interleaving. (Demo video available at https://youtu.be/ISYdBNMxEDY. Tool available at https://bitbucket.org/guancio/chosem-tools/).&lt;/p&gt;</description>
+   <pubDate>Wed, 2 Oct 2019 14:54:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-261173</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>Explainable software bot contributions : Case study of automated bug fixes</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-268264</link>
+   <description>&lt;p&gt;In a software project, esp. in open-source, a contribution is a valuable piece of work made to the project: writing code, reporting bugs, translating, improving documentation, creating graphics, etc. We are now at the beginning of an exciting era where software bots will make contributions that are of similar nature than those by humans. Dry contributions, with no explanation, are often ignored or rejected, because the contribution is not understandable per se, because they are not put into a larger context, because they are not grounded on idioms shared by the core community of developers. We have been operating a program repair bot called Repairnator for 2 years and noticed the problem of "dry patches": a patch that does not say which bug it fixes, or that does not explain the effects of the patch on the system. We envision program repair systems that produce an "explainable bug fix": an integrated package of at least 1) a patch, 2) its explanation in natural or controlled language, and 3) a highlight of the behavioral difference with examples. In this paper, we generalize and suggest that software bot contributions must explainable, that they must be put into the context of the global software development conversation.&lt;/p&gt;</description>
+   <pubDate>Fri, 27 Mar 2020 09:19:29 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-268264</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anil Koyuncu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Kui Liu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Tegawende F. Bissyande</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Dongsun Kim</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jacques Klein</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Yves Le Traon</dc:creator>
+   <title>iFixR : Bug Report driven Program Repair</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-261345</link>
+   <description>&lt;p&gt;Issue tracking systems are commonly used in modern software development for collecting feedback from users and developers. An ultimate automation target of software maintenance is then the systematization of patch generation for user-reported bugs. Although this ambition is aligned with the momentum of automated program repair, the literature has, so far, mostly focused on generate-and-validate setups where fault localization and patch generation are driven by a well-defined test suite. On the one hand, however, the common (yet strong) assumption on the existence of relevant test cases does not hold in practice for most development settings: many bugs are reported without the available test suite being able to reveal them. On the other hand, for many projects, the number of bug reports generally outstrips the resources available to triage them. Towards increasing the adoption of patch generation tools by practitioners, we investigate a new repair pipeline, iFixR, driven by bug reports: (1) bug reports are fed to an IR-based fault localizer; (2) patches are generated from fix patterns and validated via regression testing; (3) a prioritized list of generated patches is proposed to developers. We evaluate iFixR on the Defects4J dataset, which we enriched (i.e., faults are linked to bug reports) and carefully-reorganized (i.e., the timeline of test-cases is naturally split). iFixR generates genuine/plausible patches for 21/44 Defects4J faults with its IR-based fault localizer. iFixR accurately places a genuine/plausible patch among its top-5 recommendation for 8/13 of these faults (without using future test cases in generation-and-validation).&lt;/p&gt;</description>
+   <pubDate>Mon, 7 Oct 2019 09:15:49 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-261345</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Christoph Baumann</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Oliver Schwarz</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mads Dam</dc:creator>
+   <title>On the verification of system-level information flow properties for virtualized execution platforms</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-263686</link>
+   <description>&lt;p&gt;The security of embedded systems can be dramatically improved through the use of formally verified isolation mechanisms such as separation kernels, hypervisors, or microkernels. For trustworthiness, particularly for system-level behavior, the verifications need precise models of the underlying hardware. Such models are hard to attain, highly complex, and proofs of their security properties may not easily apply to similar but different platforms. This may render verification economically infeasible. To address these issues, we propose a compositional top-down approach to embedded system specification and verification, where the system-on-chip is modeled as a network of distributed automata communicating via paired synchronous message passing. Using abstract specifications for each component allows to delay the development of detailed models for cores, devices, etc., while still being able to verify high-level security properties like integrity and confidentiality, and soundly refine the result for different instantiations of the abstract components at a later stage. As a case study, we apply this methodology to the verification of information flow security for an industry-scale security-oriented hypervisor on the ARMv8-A platform and report on the complete verification of guest mode security properties in the HOL4 theorem prover.&lt;/p&gt;</description>
+   <pubDate>Fri, 8 Nov 2019 10:10:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-263686</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emilio Tuosto</dc:creator>
+   <title>Realisability of pomsets</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-261176</link>
+   <description>&lt;p&gt;Pomsets are a model of concurrent computations introduced by Pratt. We adopt pomsets as a syntax-oblivious specification model of distributed systems where coordination happens via asynchronous message-passing. In this paper, we study conditions that ensure a specification expressed as a set of pomsets can be faithfully realised via communicating automata. Our main contributions are (i) the definition of a realisability condition accounting for termination soundness, (ii) conditions accounting for "multi-threaded" participants, and (iii) an algorithm to check our realisability conditions directly over pomsets, (iv) an analysis of the algorithm and its benchmarking attained with a prototype implementation.&lt;/p&gt;&lt;p&gt;In this paper, we study conditions that ensure a specification expressed as a set of pomsets can be faithfully realised via communicating automata. Our main contributions are (i) the definition of a realisability condition accounting for termination soundness, (ii) conditions accounting for ‘‘multi-threaded’’ participants, and (iii) an algorithm to check our realisability conditions directly over pomsets, (iv) an analysis of the algorithm and its benchmarking attained with a prototype implementation.&lt;/p&gt;</description>
+   <pubDate>Wed, 2 Oct 2019 14:58:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-261176</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Javier Cabrera Arteaga</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <title>Scalable comparison of JavaScript V8 bytecode traces</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-262911</link>
+   <description>&lt;p&gt;The comparison and alignment of runtime traces are essential, e.g., for semantic analysis or debugging. However, naive sequence alignment algorithms cannot address the needs of the modern web: (i) the bytecode generation process of V8 is not deterministic; (ii) bytecode traces are large.&lt;/p&gt;&lt;p&gt;We present STRAC, a scalable and extensible tool tailored to compare bytecode traces generated by the V8 JavaScript engine. Given two V8 bytecode traces and a distance function between trace events, STRAC computes and provides the best alignment. The key insight is to split access between memory and disk. STRAC can identify semantically equivalent web pages and is capable of processing huge V8 bytecode traces whose order of magnitude matches today's web like https://2019.splashcon.org, which generates approx. 150k of V8 bytecode instructions.&lt;/p&gt;</description>
+   <pubDate>Thu, 24 Oct 2019 11:00:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-262911</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">M. White</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">M. Tufano</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">M. Martinez</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">D. Poshyvanyk</dc:creator>
+   <title>Sorting and Transforming Program Repair Ingredients via Deep Learning Code Similarities</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-252216</link>
+   <description>&lt;p&gt;In the field of automated program repair, the redundancy assumption claims large programs contain the seeds of their own repair. However, most redundancy-based program repair techniques do not reason about the repair ingredients-The code that is reused to craft a patch. We aim to reason about the repair ingredients by using code similarities to prioritize and transform statements in a codebase for patch generation. Our approach, DeepRepair, relies on deep learning to reason about code similarities. Code fragments at well-defined levels of granularity in a codebase can be sorted according to their similarity to suspicious elements (i.e., code elements that contain suspicious statements) and statements can be transformed by mapping out-of-scope identifiers to similar identifiers in scope. We examined these new search strategies for patch generation with respect to effectiveness from the viewpoint of a software maintainer. Our comparative experiments were executed on six open-source Java projects including 374 buggy program revisions and consisted of 19,949 trials spanning 2,616 days of computation time. Deep-Repair's search strategy using code similarities generally found compilable ingredients faster than the baseline, jGenProg, but this improvement neither yielded test-Adequate patches in fewer attempts (on average) nor found significantly more patches (on average) than the baseline. Although the patch counts were not statistically different, there were notable differences between the nature of DeepRepair patches and jGenProg patches. The results show that our learning-based approach finds patches that cannot be found by existing redundancy-based repair techniques.&lt;/p&gt;</description>
+   <pubDate>Tue, 11 Jun 2019 14:47:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-252216</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Andreas Lindner</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">R. Metere</dc:creator>
+   <title>TrABin : Trustworthy analyses of binaries</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-246462</link>
+   <description>&lt;p&gt;Verification of microkernels, device drivers, and crypto routines requires analyses at the binary level. In order to automate these analyses, in the last years several binary analysis platforms have been introduced. These platforms share a common design: the adoption of hardware-independent intermediate representations, a mechanism to translate architecture dependent code to this representation, and a set of architecture independent analyses that process the intermediate representation. The usage of these platforms to verify software introduces the need for trusting both the correctness of the translation from binary code to intermediate language (called transpilation) and the correctness of the analyses. Achieving a high degree of trust is challenging since the transpilation must handle (i) all the side effects of the instructions, (ii) multiple instruction encodings (e.g. ARM Thumb), and (iii) variable instruction length (e.g. Intel). Similarly, analyses can use complex transformations (e.g. loop unrolling) and simplifications (e.g. partial evaluation) of the artifacts, whose bugs can jeopardize correctness of the results. We overcome these problems by developing a binary analysis platform on top of the interactive theorem prover HOL4. First, we formally model a binary intermediate language and we prove correctness of several supporting tools (i.e. a type checker). Then, we implement two proof-producing transpilers, which respectively translate ARMv8 and CortexM0 programs to the intermediate language and generate a certificate. This certificate is a HOL4 proofdemonstrating correctness of the translation. As demonstrating analysis, we implement a proof-producing weakest precondition generator, which can be used to verify that a given loop-free program fragment satisfies a contract. Finally, we use an AES encryption implementation to benchmark our platform.&lt;/p&gt;</description>
+   <pubDate>Thu, 21 Mar 2019 13:13:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-246462</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benjamin Danglot</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Philippe Preux</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>Correctness attraction : a study of stability of software behavior under runtime perturbation</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-240079</link>
+   <description>&lt;p&gt;Can the execution of software be perturbed without breaking the correctness of the output? In this paper, we devise a protocol to answer this question from a novel perspective. In an experimental study, we observe that many perturbations do not break the correctness in ten subject programs. We call this phenomenon “correctness attraction”. The uniqueness of this protocol is that it considers a systematic exploration of the perturbation space as well as perfect oracles to determine the correctness of the output. To this extent, our findings on the stability of software under execution perturbations have a level of validity that has never been reported before in the scarce related work. A qualitative manual analysis enables us to set up the first taxonomy ever of the reasons behind correctness attraction.&lt;/p&gt;</description>
+   <pubDate>Tue, 11 Dec 2018 10:39:37 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-240079</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">B. Morin</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">J. Høgenes</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">H. Song</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nicolas Yves Maurice Harrand</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Benoit Baudry</dc:creator>
+   <title>Engineering software diversity : A model-based approach to systematically diversify communications</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-247131</link>
+   <description>&lt;p&gt;Automated diversity is a promising mean of increasing the security of software systems. However, current automated diversity techniques operate at the bottom of the software stack (operating system and compiler), yielding a limited amount of diversity. We present a novel Model-Driven Engineering approach to the diversification of communicating systems, building on abstraction, model transformations and code generation. This approach generates significant amounts of diversity with a low overhead, and addresses a large number of communicating systems, including small communicating devices.&lt;/p&gt;</description>
+   <pubDate>Wed, 3 Apr 2019 10:30:33 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-247131</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">H. Nemati</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Christoph Baumann</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mads Dam</dc:creator>
+   <title>Formal verification of integrity-Preserving countermeasures against cache storage side-channels</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-227490</link>
+   <description>&lt;p&gt;Formal verification of systems-level software such as hypervisors and operating systems can enhance system trustworthiness. However, without taking low level features like caches into account the verification may become unsound. While this is a well-known fact w.r.t. timing leaks, few works have addressed latent cache storage side-channels, whose effects are not limited to information leakage. We present a verification methodology to analyse soundness of countermeasures used to neutralise these channels. We apply the proposed methodology to existing countermeasures, showing that they allow to restore integrity of the system. We decompose the proof effort into verification conditions that allow for an easy adaption of our strategy to various software and hardware platforms. As case study, we extend the verification of an existing hypervisor whose integrity can be tampered using cache storage channels. We used the HOL4 theorem prover to validate our security analysis, applying the verification methodology to a generic hardware model. &lt;/p&gt;</description>
+   <pubDate>Wed, 16 May 2018 11:04:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-227490</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S. Urli</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Z. Yu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">L. Seinturier</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>How to design a program repair bot? : Insights from the repairnator project</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-238225</link>
+   <description>&lt;p&gt;Program repair research has made tremendous progress over the last few years, and software development bots are now being invented to help developers gain productivity. In this paper, we investigate the concept of a "program repair bot" and present Repairnator. The Repairnator bot is an autonomous agent that constantly monitors test failures, reproduces bugs, and runs program repair tools against each reproduced bug. If a patch is found, Repairnator bot reports it to the developers. At the time of writing, Repairnator uses three different program repair systems and has been operating since February 2017. In total, it has studied 11 523 test failures over 1 609 open-source software projects hosted on GitHub, and has generated patches for 15 different bugs. Over months, we hit a number of hard technical challenges and had to make various design and engineering decisions. This gives us a unique experience in this area. In this paper, we reflect upon Repairnator in order to share this knowledge with the automatic program repair community.&lt;/p&gt;</description>
+   <pubDate>Tue, 20 Nov 2018 09:05:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-238225</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <title>Protecting Instruction Set Randomization from Code Reuse Attacks</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-247459</link>
+   <description>&lt;p&gt;Instruction Set Randomization (ISR) prevents code injection by randomizing the instruction encoding used by programs, thus preventing an attacker from preparing a payload that can be injected in a victim. In this paper we show that code-reuse attacks can be used to circumvent existing ISR techniques and we demonstrate these attacks on an ARMv7 CPU that has been extended with ISR support. To counter this treat, we propose a new ISR that does not have the same vulnerabilities as the existing solutions, imposes moderate decryption cost, does not require additional memory per instruction, and affords efficient random access to the encrypted code. These properties enable efficient hardware implementation of our solution. In order to evaluate our proposal, we implement the new ISR in a hardware simulator and we compare its overhead with respect to existing ISR. &lt;/p&gt;</description>
+   <pubDate>Wed, 3 Apr 2019 12:32:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-247459</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">E. Tuosto</dc:creator>
+   <title>Realisability of pomsets via communicating automata</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-241856</link>
+   <description>&lt;p&gt;Pomsets are a model of concurrent computations introduced by Pratt. They can provide a syntax-oblivious description of semantics of coordination models based on asynchronous message-passing, such as Message Sequence Charts (MSCs). In this paper, we study conditions that ensure a specification expressed as a set of pomsets can be faithfully realised via communicating automata. Our main contributions are (i) the definition of a realisability condition accounting for termination soundness, (ii) conditions for global specifications with “multi-threaded” participants, and (iii) the definition of realisability conditions that can be decided directly over pomsets. A positive by-product of our approach is the efficiency gain in the verification of the realisability conditions obtained when restricting to specific classes of choreographies characterisable in term of behavioural types.&lt;/p&gt;</description>
+   <pubDate>Fri, 25 Jan 2019 13:38:56 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-241856</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">R. Metere</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Andreas Lindner</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <title>Sound transpilation from binary to machine-independent code</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-219665</link>
+   <description>&lt;p&gt;In order to handle the complexity and heterogeneity of modern instruction set architectures, analysis platforms share a common design, the adoption of hardware-independent intermediate representations. The usage of these platforms to verify systems down to binary-level is appealing due to the high degree of automation they provide. However, it introduces the need for trusting the correctness of the translation from binary code to intermediate language. Achieving a high degree of trust is challenging since this transpilation must handle (i) all the side effects of the instructions, (ii) multiple instruction encoding (e.g. ARM Thumb), and (iii) variable instruction length (e.g. Intel). We overcome these problems by formally modeling one of such intermediate languages in the interactive theorem prover HOL4 and by implementing a proof-producing transpiler. This tool translates ARMv8 programs to the intermediate language and generates a HOL4 proof that demonstrates the correctness of the translation in the form of a simulation theorem. We also show how the transpiler theorems can be used to transfer properties verified on the intermediate language to the binary code.&lt;/p&gt;</description>
+   <pubDate>Tue, 12 Dec 2017 12:34:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-219665</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mads Dam</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <title>InSpectre: Breaking and Fixing Microarchitectural Vulnerabilities by Formal Analysis.</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-263924</link>
+   <description>&lt;p&gt;The recent Spectre attacks has demonstrated the fundamental insecurity of current computer microarchitecture. The attacks use features like pipelining, out-of-order and speculation to extract arbitrary information about the memory contents of a process. A comprehensive formal microarchitectural model capable of representing the forms of out-of-order and speculative behavior that can meaningfully be implemented in a high performance pipelined architecture has not yet emerged. Such a model would be very useful, as it would allow the existence and non-existence of vulnerabilities, and soundness of countermeasures to be formally established. In this paper we present such a model targeting single core processors. The model is intentionally very general and provides an infrastructure to define models of real CPUs. It incorporates microarchitectural features that underpin all known Spectre vulnerabilities. We use the model to elucidate the security of existing and new vulnerabilities, as well as to formally analyze the effectiveness of proposed countermeasures. Specifically, we discover three new (potential) vulnerabilities, including a new variant of Spectre v4, a vulnerability on speculative fetching, and a vulnerability on out-of-order execution, and analyze the effectiveness of three existing countermeasures: constant time, Retpoline, and ARM's Speculative Store Bypass Safe (SSBS).&lt;/p&gt;</description>
+   <pubDate>Tue, 19 Nov 2019 11:44:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-263924</guid>
+</item></channel></rss>
