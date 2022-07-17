@@ -1,4 +1,6 @@
 news:
+  - date: "2022-07-08"
+    text: 'The papers "Formally Verified Isolation of DMA," by Jonas Haglund and Roberto Guanciale, and the paper "Foundations and Tools in HOL4 for Analysis of Microarchitectural Out-of-Order Execution," by Karl Palmskog, Xiaomo Yao, Ning Dong, Roberto Guanciale, and Mads Dam, were accepted to FMCAD 22!'
   - date: "2022-06-13"
     text: "[Ning Dong](/members) did his 50% seminar on [verified pipelined processors](/projects/pipeline-processor) and [microarchitectural modelling and verification](/projects/mil)."
   - date: 2022-06-09
