@@ -1,4 +1,6 @@
 news:
+  - date: "2022-08-16"
+    text: "The formalization of the Machine-Independent Language (MIL), that captures microarchitectural features, have been [released](https://zenodo.org/record/6997534)."
   - date: "2022-07-08"
     text: 'The papers "Formally Verified Isolation of DMA," by Jonas Haglund and Roberto Guanciale, and the paper "Foundations and Tools in HOL4 for Analysis of Microarchitectural Out-of-Order Execution," by Karl Palmskog, Xiaomo Yao, Ning Dong, Roberto Guanciale, and Mads Dam, were accepted to FMCAD 22!'
   - date: "2022-06-13"
