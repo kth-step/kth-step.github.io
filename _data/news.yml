@@ -1,6 +1,4 @@
 news:
-  - date: "2022-08-31"
-    text: "Anoud Alshnakat and Didrik Lundberg presents their poster on the [formalization of the P4 programming language](projects/p4) at [CASTOR Software Days](https://www.kth.se/castorsoftwaredays)."
   - date: "2022-08-16"
     text: "The formalization of the Machine-Independent Language (MIL), that captures microarchitectural features, have been [released](https://zenodo.org/record/6997534)."
   - date: "2022-07-08"
