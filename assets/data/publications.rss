@@ -6,6 +6,17 @@
    <pubDate>Mon, 7 Mar 2022 17:26:00 +0200</pubDate>
    <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-309603</guid>
 </item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Khashayar Etemadi</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Niloofar Tarighat</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Siddharth Yadav</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Matias Martinez</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
+   <title>Estimating the potential of program repair search spaces with commit analysis</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-312192</link>
+   <description>&lt;p&gt;The most natural method for evaluating program repair systems is to run them on bug datasets, such as Defects4J. Yet, using this evaluation technique on arbitrary real-world programs requires heavy configuration. In this paper, we propose a purely static method to evaluate the potential of the search space of repair approaches. This new method enables researchers and practitioners to encode the search spaces of repair approaches and select potentially useful ones without struggling with tool configuration and execution. We encode the search spaces by specifying the repair strategies they employ. Next, we use the specifications to check whether past commits lie in repair search spaces. For a repair approach, including many human-written past commits in its search space indicates its potential to generate useful patches. We implement our evaluation method in LIGHTER. LIGHTER gets a Git repository and outputs a list of commits whose source code changes lie in repair search spaces. We run LIGHTER on 55,309 commits from the history of 72 Github repositories with and show that LIGHTER's precision and recall are 77% and 92%, respectively. Overall, our experiments show that our novel method is both lightweight and effective to study the search space of program repair approaches.&lt;/p&gt;</description>
+   <pubDate>Wed, 18 May 2022 09:00:23 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-312192</guid>
+</item><item>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Cesar Soto Valero</dc:creator>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nicolas Harrand</dc:creator>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Martin Monperrus</dc:creator>
@@ -70,6 +81,7 @@
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Guido Salvaneschi</dc:creator>
    <title>Enclave-Based Secure Programming with JE</title>
    <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-301750</link>
+   <description>&lt;p&gt;Over the past few years, major hardware vendors have started offering processors that support Trusted Execution Environments (TEEs) allowing confidential computations over sensitive data on untrusted hosts. Unfortunately, developing applications that use TEEs remains challenging. Current solutions require using low-level languages (e.g., C/C++) to handle the TEE management process manually a complex and error-prone task. Worse, the separation of the application into components that run inside and outside the TEE may lead to information leaks. In summary, TEEs are a powerful means to design secure applications, but there is still a long way to building secure software with TEEs alone. In this work, we present J(E), a programming model for developing TEE-enabled applications where developers only need to annotate Java programs to define application-level security policies and run them securely inside enclaves.&lt;/p&gt;</description>
    <pubDate>Fri, 10 Sep 2021 19:10:00 +0200</pubDate>
    <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-301750</guid>
 </item><item>
@@ -105,6 +117,24 @@
    <pubDate>Fri, 8 Nov 2019 16:36:00 +0200</pubDate>
    <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-263699</guid>
 </item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Christoph Baumann</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mads Dam</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Hamed Nemati</dc:creator>
+   <title>On Compositional Information Flow Aware Refinement</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-306541</link>
+   <description>&lt;p&gt;The concepts of information flow security and refinement are known to have had a troubled relationship ever since the seminal work of McLean. In this work we study refinements that support changes in data representation and semantics, including the addition of state variables that may induce new observational power or side channels. We propose a new epistemic approach to ignorance-preserving refinement where an abstract model is used as a specification of a system's permitted information flows, that may include the declassification of secret information. The core idea is to require that refinement steps must not induce observer knowledge that is not already available in the abstract model. Our study is set in the context of a class of shared variable multi-agent models similar to interpreted systems in epistemic logic. We demonstrate the expressiveness of our framework through a series of small examples and compare our approach to existing, stricter notions of information-flow secure refinement based on bisimulations and noninterference preservation. Interestingly, noninterference preservation is not supported "out of the box" in our setting, because refinement steps may introduce new secrets that are independent of secrets already present at abstract level. To support verification, we first introduce a "cube-shaped" unwinding condition related to conditions recently studied in the context of value-dependent noninterference, kernel verification, and secure compilation. A fundamental problem with ignorance-preserving refinement, caused by the support for general data and observation refinement, is that sequential composability is lost. We propose a solution based on relational pre- and post-conditions and illustrate its use together with unwinding on the oblivious RAM construction of Chung and Pass.&lt;/p&gt;</description>
+   <pubDate>Fri, 17 Dec 2021 14:08:00 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-306541</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Annette Lanneros</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Lina Lindeberg</dc:creator>
+   <title>Patienters upplevelser av bemötandet från hälso- och sjukvårdspersonal vid övervikt och fetma : en litteraturöversikt</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:esh:diva-8892</link>
+   <description>&lt;p&gt;&lt;strong&gt;Bakgrund:&lt;/strong&gt; Övervikt och fetma är en folkhälsoutmaning världen över och i Sverige beräknas 52 % av befolkningen i åldern 16–84 år leva med övervikt eller fetma. Övervikt och fetma blir allt vanligare och en ökad risk för följdsjukdomar tillkommer därigenom. Totalt beräknas de samhällsekonomiska kostnaderna uppgå till 70 miljarder kronor/år i Sverige. Hälso- och sjukvårdspesonal möter dagligen individer som lider av övervikt och fetma. Sjuksköterskans ansvar är att stödja och motivera patientena till hälsosamma levnadsvanor, vilket gör bemötandet till en viktig faktor.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Syfte:&lt;/strong&gt; Syftet var att beskriva hur personer med övervikt och fetma upplever bemötandet från hälso- och sjukvårdspersonal.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Metod:&lt;/strong&gt; En litteraturöversikt gjordes där tio vetenskapliga artiklar söktes fram iCinahl Complete, Discovery, PubMed och SweMed+. Åtta kvalitativa och två kvantitativa studier valdes ut till resultatet. Artiklarna granskades, analyserades samt färgkodades för att identifiera tre teman.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Resultat:&lt;/strong&gt; Resultatet presenteras i tre huvudteman; vårdrelation, vårdmiljö och skam och skuld. Resultatet visade att förhållningssättet från hälso- och sjukvårdspersonal påverkar personer med övervikt och fetma och studiernapekade på flera brister. I tre artiklar framkom delvis avvikande och positiva resultat av bemötande.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Slutsats:&lt;/strong&gt; Personer med övervikt och fetma upplever fördomar, okunskap och ett bemötande som bidrar till känslor av skam och skuld. Genom ökad kunskap, respekt och lyhördhet kan hälso- och sjukvårdspersonal skapa en mer värdig och tillitsfull relation med patienten. &lt;/p&gt;</description>
+   <pubDate>Wed, 2 Jun 2021 15:22:04 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:esh:diva-8892</guid>
+</item><item>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emilio Tuosto</dc:creator>
    <title>PomCho : Atool chain for choreographic design</title>
@@ -112,15 +142,6 @@
    <description>&lt;p&gt;We present a tool chain for model-driven development of asynchronous message-passing applications. The key features of the tool allow designers to identify misbehaviour leading to unsound communications, to provide counterexamples, and to suggest possible corrections as well as to project global specifications to local models in order to generate executable implementations.&lt;/p&gt;</description>
    <pubDate>Wed, 20 Jan 2021 11:08:33 +0200</pubDate>
    <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-289099</guid>
-</item><item>
-   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ning Dong</dc:creator>
-   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
-   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mads Dam</dc:creator>
-   <title>Refinement-Based Verification of Device-to-Device Information Flow</title>
-   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-303933</link>
-   <description>&lt;p&gt;I/O devices are the critical components that allow a computing system to communicate with the external environment. From the perspective of a device, interactions can be divided into two parts, with the processor (mainly memory operations by the driver) and through the communication medium with external devices. In this paper, we present an abstract model of I/O devices and their drivers to describe the expected results of their execution, where the communication between devices is made explicit and the device-to-device information flow is analyzed. In order to handle general I/O functionalities, both half-duplex (transmission and reception) and full-duplex (sending and receiving simultaneously) data transmissions are considered. We propose a refinement-based approach that concretizes a correct-by-construction abstract model into an actual hardware device and its driver. As an example, we formalize the Serial Peripheral Interface (SPI) with a driver. In the HOL4 interactive theorem prover, we verified the refinement between these models by establishing a weak bisimulation. We show how this result can be used to establish both functional correctness and information flow security for both single devices and when devices are connected in an end-to-end fashion.&lt;/p&gt;</description>
-   <pubDate>Fri, 29 Oct 2021 11:03:00 +0200</pubDate>
-   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-303933</guid>
 </item><item>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mohammad M. Ahmadpanah</dc:creator>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Daniel Hedin</dc:creator>
@@ -137,6 +158,7 @@
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
    <title>Security-Aware Multi-User Architecture for IoT</title>
    <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-305259</link>
+   <description>&lt;p&gt;IoT systems, such as in smart cities or hospitals, generate data that may be subject to different security classifications, privacy regulations, and access rights. However, popular IoT platforms do not consider data classification and security-aware data analysis. In this paper, we present a novel architecture based on open-source solutions that handles the issue of collecting and classifying data at the source and presents the data analysis to users at different authorization levels. Our architecture consists of three layers: a layer for exposing collected and classified data to a middleware, the middleware to handle storage and analysis of the data and expose it to a dashboard, and the dashboard responsible for authenticating users and visualizing data according to the users' classification level. Our solution distinguishes itself by focusing on data classification rather than data collection, supporting fine-grained access control and declassification. Our implementation, using the Web of Things API, Node-RED and Grafana, demonstrates the security benefits of our design on use cases in the smart city and healthcare domains.&lt;/p&gt;</description>
    <pubDate>Wed, 24 Nov 2021 11:50:00 +0200</pubDate>
    <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-305259</guid>
 </item><item>
@@ -227,15 +249,6 @@
    <description>&lt;p&gt;Enabling Hoare-style reasoning for low-level code is attractive since it opens the way to regain structure and modularity in a domain where structure is essentially absent. The field, however, has not yet arrived at a fully satisfactory solution, in the sense of avoiding restrictions on control flow (important for compiler optimization), controlling access to intermediate program points (important for modularity), and supporting total correctness. Proposals in the literature support some of these properties, but a solution that meets them all is yet to be found. We introduce the novel Hoare-style program logic &lt;img src="http://www.diva-portal.org/cgi-bin/mimetex.cgi?%5Cmathcal%7BL%7D_A" /&gt;, which interprets postconditions relative to program points when these are first encountered. The logic can support both partial and total correctness, derive contracts for arbitrary control flow, and allows one to freely choose decomposition strategy during verification while avoiding step-indexed approximations and global invariants. The logic can be instantiated for a variety of concrete instruction set architectures and intermediate languages. The rules of &lt;img src="http://www.diva-portal.org/cgi-bin/mimetex.cgi?%5Cmathcal%7BL%7D_A" /&gt; have been verified in the interactive theorem prover HOL4 and integrated with the toolbox HolBA for semi-automated program verification, making it applicable to the ARMv6 and ARMv8 instruction sets.&lt;/p&gt;</description>
    <pubDate>Mon, 21 Sep 2020 12:14:00 +0200</pubDate>
    <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-281691</guid>
-</item><item>
-   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
-   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Musard Balliu</dc:creator>
-   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mads Dam</dc:creator>
-   <title>InSpectre : Breaking and Fixing Microarchitectural Vulnerabilities by Formal Analysis</title>
-   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-288690</link>
-   <description>&lt;p&gt;The recent Spectre attacks have demonstrated the fundamental insecurity of current computer microarchitecture. The attacks use features like pipelining, out-of-order and speculation to extract arbitrary information about the memory contents of a process. A comprehensive formal microarchitectural model capable of representing the forms of out-of-order and speculative behavior that can meaningfully be implemented in a high performance pipelined architecture has not yet emerged. Such a model would be very useful, as it would allow the existence and non-existence of vulnerabilities, and soundness of countermeasures to be formally established. This paper presents such a model targeting single core processors. The model is intentionally very general and provides an infrastructure to define models of real CPUs. It incorporates microarchitectural features that underpin all known Spectre vulnerabilities. We use the model to elucidate the security of existing and new vulnerabilities, as well as to formally analyze the effectiveness of proposed countermeasures. Specifically, we discover three new (potential) vulnerabilities, including a new variant of Spectre v4, a vulnerability on speculative fetching, and a vulnerability on out-of-order execution, and analyze the effectiveness of existing countermeasures including constant time and serializing instructions.  &lt;/p&gt;</description>
-   <pubDate>Mon, 11 Jan 2021 11:26:00 +0200</pubDate>
-   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-288690</guid>
 </item><item>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nicolas Harrand</dc:creator>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">César Soto Valero</dc:creator>
@@ -388,15 +401,6 @@
    <pubDate>Mon, 7 Oct 2019 09:15:49 +0200</pubDate>
    <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-261345</guid>
 </item><item>
-   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Christoph Baumann</dc:creator>
-   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Oliver Schwarz</dc:creator>
-   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mads Dam</dc:creator>
-   <title>On the verification of system-level information flow properties for virtualized execution platforms</title>
-   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-263686</link>
-   <description>&lt;p&gt;The security of embedded systems can be dramatically improved through the use of formally verified isolation mechanisms such as separation kernels, hypervisors, or microkernels. For trustworthiness, particularly for system-level behavior, the verifications need precise models of the underlying hardware. Such models are hard to attain, highly complex, and proofs of their security properties may not easily apply to similar but different platforms. This may render verification economically infeasible. To address these issues, we propose a compositional top-down approach to embedded system specification and verification, where the system-on-chip is modeled as a network of distributed automata communicating via paired synchronous message passing. Using abstract specifications for each component allows to delay the development of detailed models for cores, devices, etc., while still being able to verify high-level security properties like integrity and confidentiality, and soundly refine the result for different instantiations of the abstract components at a later stage. As a case study, we apply this methodology to the verification of information flow security for an industry-scale security-oriented hypervisor on the ARMv8-A platform and report on the complete verification of guest mode security properties in the HOL4 theorem prover.&lt;/p&gt;</description>
-   <pubDate>Fri, 8 Nov 2019 10:10:00 +0200</pubDate>
-   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-263686</guid>
-</item><item>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roberto Guanciale</dc:creator>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Emilio Tuosto</dc:creator>
    <title>Realisability of pomsets</title>
@@ -464,6 +468,14 @@
    <description>&lt;p&gt;Formal verification of systems-level software such as hypervisors and operating systems can enhance system trustworthiness. However, without taking low level features like caches into account the verification may become unsound. While this is a well-known fact w.r.t. timing leaks, few works have addressed latent cache storage side-channels, whose effects are not limited to information leakage. We present a verification methodology to analyse soundness of countermeasures used to neutralise these channels. We apply the proposed methodology to existing countermeasures, showing that they allow to restore integrity of the system. We decompose the proof effort into verification conditions that allow for an easy adaption of our strategy to various software and hardware platforms. As case study, we extend the verification of an existing hypervisor whose integrity can be tampered using cache storage channels. We used the HOL4 theorem prover to validate our security analysis, applying the verification methodology to a generic hardware model. &lt;/p&gt;</description>
    <pubDate>Wed, 16 May 2018 11:04:00 +0200</pubDate>
    <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-227490</guid>
+</item><item>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jessica Oikari</dc:creator>
+   <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Catherine Andersson</dc:creator>
+   <title>Förskollärares konstruktioner av barn : Vikten av trygghet i relationsskapandet</title>
+   <link>http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-70787</link>
+   <description>&lt;p&gt;Studien behandlar ämnet inskolning i förskolan där fokus är att undersöka hur förskollärare iscensätter dessa och därigenom konstruerar barn. Vi har genomfört kvalitativa intervjuer med fyra förskollärare och analyserat materialet utifrån ett socialkonstruktionistiskt och postmodernistiskt perspektiv med inspiration av diskursanalys. Av resultatet framkommer vikten av att vinna vårdnadshavarnas förtroende för att kunna skapa en trygg relation till barnet. Vidare behandlas vad som är betydande vid planering av en inskolning samt aspekter som behöver tas i beaktande i samband med inskolningens utformning. Det visar sig också att de intervjuade förskollärarna har olika syn på vad ett barn klarar av och är i behov av under en inskolning. Resultatet har även gett oss en förståelse över inskolningens alla olika delar och betydelsen av att dessa måste bilda en helhet.&lt;/p&gt;</description>
+   <pubDate>Mon, 1 Oct 2018 09:43:55 +0200</pubDate>
+   <guid>http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-70787</guid>
 </item><item>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">S. Urli</dc:creator>
    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Z. Yu</dc:creator>
