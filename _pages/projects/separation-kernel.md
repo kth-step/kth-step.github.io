@@ -19,6 +19,8 @@ In this project, we are developing new efficient methods, that allow us to verif
 
 This project is funded by the <a href="https://www.kth.se/cdis">Center for Cyber Defence and Information Security (CDIS)</a> at KTH.
 
+---
+
 <h2>Researchers</h2>
 {% assign mems = site.data.members.current | where_exp: "mem", "page.members contains mem.name " %}
 {% include member_list.md members=mems %}
