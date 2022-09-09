@@ -17,7 +17,7 @@ HolBA is a platform for Binary Analysis in HOL4, a theorem prover.
 
 [HolBA's GitHub repository](https://github.com/kth-step/holba){: .btn .btn--info}
 
-### Multicore
+### [Multicore](holba-mc)
 
 In the HolBA Multicore project we extend the HolBA's BIR with the promising-semantics for multicore RISC-V.
 
