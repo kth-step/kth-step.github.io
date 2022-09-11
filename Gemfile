@@ -5,6 +5,7 @@ gem "github-pages", group: :jekyll_plugins
 gem "jekyll"
 gem "io-wait"
 gem "ipaddr"
+gem "webrick"
 
 # If you have any plugins, put them here!
 ## https://jekyllrb.com/docs/plugins/installation/
