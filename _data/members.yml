@@ -2,8 +2,8 @@ current:
   # Professors
   - name: "Mads Dam"
     position: "Professor"
-    picture: "/assets/images/people/mfd.jpg"
     url: "https://www.kth.se/profile/mfd"
+    picture: "https://www.kth.se/files/avatar/mfd"
     affiliation: "KTH"
     collaborator: "no"
   # Assistant professors
@@ -15,7 +15,7 @@ current:
     collaborator: "no"
   - name: "Roberto Guanciale"
     position: "Associate Professor"
-    picture: "/assets/images/people/robertog.jpg"
+    picture: "https://www.kth.se/files/avatar/robertog"
     url: "https://www.kth.se/profile/robertog"
     affiliation: "KTH"
     collaborator: "no"
@@ -63,12 +63,6 @@ current:
     picture: "https://www.kth.se/files/avatar/mshc"
     affiliation: "KTH"
     collaborator: "no"
-  - name: "Xiaomo Yao"
-    position: "PhD student"
-    url: "https://www.kth.se/profile/xiaomoy"
-    picture: "https://www.kth.se/files/avatar/xiaomoy"
-    affiliation: "KTH"
-    collaborator: "no"
   - name: "Ning Dong"
     position: "PhD student"
     url: "https://www.kth.se/profile/dongn"
@@ -94,10 +88,6 @@ current:
     affiliation: "KTH"
     collaborator: "no"
   # Master students
-  - name: "Henrik Kultala"
-    position: "Master student"
-    affiliation: "KTH"
-    collaborator: "no"
   # Interns
   # Other
   # TBD
@@ -157,4 +147,15 @@ past:
   - name: "Matthias Stockmayer"
     position: "Master student"
     affiliation: "KTH"
+  - name: "Henrik Kultala"
+    position: "Master student"
+    affiliation: "KTH"
+    collaborator: "no"
+    date: "2022"
+#  - name: "Xiaomo Yao"
+#    position: "PhD student"
+#    url: "https://www.kth.se/profile/xiaomoy"
+#    picture: "https://www.kth.se/files/avatar/xiaomoy"
+#    affiliation: "KTH"
+#    collaborator: "no"
 

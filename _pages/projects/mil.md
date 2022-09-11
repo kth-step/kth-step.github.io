@@ -4,7 +4,6 @@ permalink: /projects/mil/
 members:
   - Karl Palmskog
   - Ning Dong
-  - Xiaomo Yao
   - Roberto Guanciale
   - Mads Dam
 ---
