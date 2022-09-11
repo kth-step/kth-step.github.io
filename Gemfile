@@ -1,7 +1,10 @@
-source "https://rubygems.org"
+source "http://rubygems.org"
 
 # Plugins: https://jekyllrb.com/docs/plugins/installation/
 gem "github-pages", group: :jekyll_plugins
+gem "jekyll"
+gem "io-wait"
+gem "ipaddr"
 
 # If you have any plugins, put them here!
 ## https://jekyllrb.com/docs/plugins/installation/
