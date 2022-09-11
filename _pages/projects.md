@@ -44,3 +44,6 @@ Observational models make tractable the analysis of information flow properties 
 ## [Separation Kernel](separation-kernel)
 
 In this project we design, implement and verify a separation kernel for high-assurance real-time systems running on RISC-V.
+
+[Simple Secure Separation Kernel (S3K) GitHub repository](https://github.com/kth-step/separation-kernel){: .btn .btn--info}
+[OpenMZ (Open MultiZone) Github reposititory](https://github.com/castor-software/openmz){: .btn .btn--info}

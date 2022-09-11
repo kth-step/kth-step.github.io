@@ -19,6 +19,9 @@ In this project, we are developing new efficient methods, that allow us to verif
 
 This project is funded by the <a href="https://www.kth.se/cdis">Center for Cyber Defence and Information Security (CDIS)</a> at KTH.
 
+[Simple Secure Separation Kernel (S3K) GitHub repository](https://github.com/kth-step/separation-kernel){: .btn .btn--info}
+[OpenMZ (Open MultiZone) Github reposititory](https://github.com/castor-software/openmz){: .btn .btn--info}
+
 ---
 
 <h2>Researchers</h2>
