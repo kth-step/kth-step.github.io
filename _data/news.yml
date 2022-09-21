@@ -1,4 +1,6 @@
 news:
+  - date: "2022-09-14"
+    text: "Congratulations to [Pablo Buiras](/members) and his co-authors who received the [Most Influencial Paper of ICFP'12](https://dl.acm.org/doi/abs/10.1145/2398856.2364557) award for the paper [Addressing Covert Termination and Timing Channels in Concurrenct Information Flow Systems](https://dl.acm.org/doi/abs/10.1145/2398856.2364557). The work was done while Pablo was at Chalmers."
   - date: "2022-08-31"
     text: "Anoud Alshnakat and Didrik Lundberg presented their [poster](/assets/projects/p4/AlshnakatLundbergCastorPoster.pdf) on the formalization of the [P4 programming language](/projects/p4)."
   - date: "2022-08-16"
