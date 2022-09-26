@@ -40,6 +40,7 @@ Software-Defined Networking (SDN) permits programming the data plane of the netw
 Observational models make tractable the analysis of information flow properties by providing an abstraction of side channels. Scam-V, Side-channel abstract model validation, is a tool for the validation of observational models for modern computer architectures. We combine symbolic execution, relational analysis, and different program generation techniques to generate experiments and validate the side-channel models. Validation of models is done by checking indistinguishability of the two inputs on real hardware by executing the program and analyzing the side channel. 
 
 ## [Cryptographic Protocol Verification](crypto-protocol)
+Communication systems and protocols are often standardized to enable interoperability. Cryptographic protocols for key establishment, channel encryption and other tasks are part of these standards. Large and complex standards, such as those for mobile networks and internet protocols, include implicit requirements and frequently have vague security assumptions and goals. In this project we extract and formalize cryptographic protocols from 5G and IoT standards, define appropriate adversary models and security properties, and analyze the protocols in the symbolic model (using the Tamarin prover) as well as in the computational model (using traditional pen-and-paper proofs).
 
 ## [Separation Kernel](separation-kernel)
 
