@@ -1,6 +1,6 @@
 ---
-title: "Publications Test"
-permalink: /publications_test
+title: "Publications"
+permalink: /publications
 layout: single
 ---
 <ul id='publications' style="list-style-type:none; padding-left:0;">
