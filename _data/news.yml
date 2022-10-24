@@ -1,4 +1,6 @@
 news:
+  - date: "2022-10-19"
+    text: "Jonas Haglund, Karl Palmskog, and Ning Dong attended FMCAD 22. The following papers from KTH STEP were published at FMCAD 22, [Formally Verified Isolation of DMA](https://library.oapen.org/bitstream/handle/20.500.12657/58896/E-Book_Proceedings%20of%20the%2022nd%20Conference%20on%20Formal%20Methods%20in%20Computer-Aided%20Design%20%E2%80%93%20FMCAD%202022.pdf?sequence=1#page=131), and [Foundations and Tools in HOL4 for Analysis of Microarchitectural Out-of-Order Execution](https://library.oapen.org/bitstream/handle/20.500.12657/58896/1/E-Book_Proceedings%20of%20the%2022nd%20Conference%20on%20Formal%20Methods%20in%20Computer-Aided%20Design%20%E2%80%93%20FMCAD%202022.pdf#page=142)."
   - date: "2022-09-14"
     text: "Congratulations to [Pablo Buiras](/members) and his co-authors who received the [Most Influencial Paper of ICFP'12](https://dl.acm.org/doi/abs/10.1145/2398856.2364557) award for the paper [Addressing Covert Termination and Timing Channels in Concurrenct Information Flow Systems](https://dl.acm.org/doi/abs/10.1145/2398856.2364557). The work was done while Pablo was at Chalmers."
   - date: "2022-08-31"

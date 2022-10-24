@@ -1,5 +1,15 @@
 publications:
 # 2022
+  - title: "Formally Verified Isolation of DMA"
+    authors: "J Haglund, R Guanciale"
+    pub: "Formally Methods for Computer-Aided Design"
+    year: 2022
+    url: "https://library.oapen.org/bitstream/handle/20.500.12657/58896/E-Book_Proceedings%20of%20the%2022nd%20Conference%20on%20Formal%20Methods%20in%20Computer-Aided%20Design%20%E2%80%93%20FMCAD%202022.pdf?sequence=1#page=131"
+  - title: "Foundations and Tools in HOL4 for Analysis of Microarchitectural Out-of-Order Execution"
+    authors: "K Palmskog, X Yao, N Dong, R Guanciale, M Dam"
+    pub: "Formally Methods for Computer-Aided Design"
+    year: 2022
+    url: "https://library.oapen.org/bitstream/handle/20.500.12657/58896/1/E-Book_Proceedings%20of%20the%2022nd%20Conference%20on%20Formal%20Methods%20in%20Computer-Aided%20Design%20%E2%80%93%20FMCAD%202022.pdf#page=142"
   - title: "Secure Partitioning of Composite Cloud Applications"
     authors: "A Bocci, R Guanciale, S Forti, GL Ferrari, A Brogi"
     pub: "European Conference on Service-Oriented and Cloud Computing"
