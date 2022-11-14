@@ -32,3 +32,5 @@ This project is funded by the <a href="https://www.kth.se/cdis">Center for Cyber
 
 <h2>Resources</h2>
 - [Poster (CDIS Spring Conference, 24 May 2022)](/assets/projects/separation-kernel/2022-cdis-poster.pdf)
+- [CDIS Fall Retreat Slides (27 October, 2022)](/assets/projects/separation-kernel/2022-10-27-cdis-retreat.pdf)
+- [30% Seminar Slides (8 November, 2022)](/assets/projects/separation-kernel/2022-11-08-seminar30.pdf)
