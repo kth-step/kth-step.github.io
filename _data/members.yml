@@ -20,12 +20,6 @@ current:
     affiliation: "KTH"
     collaborator: "no"
   # Postdocs
-  - name: "Pablo Buiras"
-    position: "Researcher"
-    url: "https://www.kth.se/profile/buiras"
-    picture: "https://www.kth.se/files/avatar/buiras"
-    affiliation: "KTH"
-    collaborator: "no"
   - name: "Karl Palmskog"
     position: "Lecturer"
     url: "https://www.kth.se/profile/palmskog"
@@ -123,6 +117,12 @@ past:
   - name: "Thomas Tuerk"
     position: "Postdoc"
     affiliation: "KTH"
+  - name: "Pablo Buiras"
+    position: "Researcher"
+    url: "https://www.kth.se/profile/buiras"
+    picture: "https://www.kth.se/files/avatar/buiras"
+    affiliation: "KTH"
+    collaborator: "no"
   # PhD students
   # Master students
   # Interns

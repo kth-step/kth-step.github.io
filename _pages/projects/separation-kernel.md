@@ -15,12 +15,9 @@ To improve on this situation, we need to build systems in new ways using rigorou
 
 Formal methods have, however, been known to be heavy-duty and require the software to be slim and specialized. But what is truly remarkable is that these techniques have recently been used in practice to verify the security real systems running on real hardware. These techniques have mainly been used to prove the security of systems on a software level, further research is required to extend these techniques to encompass the hardware.
 
-In this project, we are developing new efficient methods, that allow us to verify both the software and the hardware. Our goal is to develop techniques good enough for the full-stack verification of a multicore real-time operating system for RISC-V that isolates critical software components from malfunctions in applications.
+In this project, we are developing new efficient methods, that allow us to verify both the software and the hardware. Our goal is to develop techniques good enough for the full-stack verification of a multicore real-time operating system for [RISC-V](https://en.wikipedia.org/wiki/RISC-V) that isolates critical software components from malfunctions in applications.
 
-This project is funded by the <a href="https://www.kth.se/cdis">Center for Cyber Defence and Information Security (CDIS)</a> at KTH.
-
-[Simple Secure Separation Kernel (S3K) GitHub repository](https://github.com/kth-step/separation-kernel){: .btn .btn--info}
-[OpenMZ (Open MultiZone) Github reposititory](https://github.com/castor-software/openmz){: .btn .btn--info}
+This project is funded by the [Center for Cyber Defence and Information Security (CDIS)](https://www.kth.se/cdis) at KTH.
 
 ---
 
@@ -31,6 +28,9 @@ This project is funded by the <a href="https://www.kth.se/cdis">Center for Cyber
 <div style="clear:both;"></div>
 
 <h2>Resources</h2>
+- [Simple Secure Separation Kernel (S3K) GitHub repository](https://github.com/kth-step/separation-kernel)
+- [OpenMZ (Open MultiZone) Github reposititory](https://github.com/castor-software/openmz)
 - [Poster (CDIS Spring Conference, 24 May 2022)](/assets/projects/separation-kernel/2022-cdis-poster.pdf)
 - [CDIS Fall Retreat Slides (27 October, 2022)](/assets/projects/separation-kernel/2022-10-27-cdis-retreat.pdf)
 - [30% Seminar Slides (8 November, 2022)](/assets/projects/separation-kernel/2022-11-08-seminar30.pdf)
+
