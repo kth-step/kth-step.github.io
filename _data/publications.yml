@@ -1,5 +1,10 @@
 publications:
 # 2022
+  - title: "A Case Study in Information Flow Refinement for Low Level Systems"
+    authors: "R Guanciale, C Baumann, P Buiras, M Dam"
+    pub: "The Logic of Software. A Tasting Menu of Formal Methods, Springer Nature"
+    year: 2022
+    url: "https://link.springer.com/chapter/10.1007/978-3-031-08166-8_4"
   - title: "Formally Verified Isolation of DMA"
     authors: "J Haglund, R Guanciale"
     pub: "Formally Methods for Computer-Aided Design"
@@ -26,6 +31,10 @@ publications:
     pub: "CONFERENCE ON FORMAL METHODS IN COMPUTER-AIDED DESIGN–FMCAD"
     year: 2021
     url: "https://library.oapen.org/bitstream/handle/20.500.12657/51064/E-Book_Proceedings%20of%20the%2021st%20Conference%20on%20Formal%20Methods%20in%20Computer-Aided%20Design%20%20%20FMCAD%202021.pdf?sequence=1#page=135"
+  - title: "ROOSTERIZE: Suggesting Lemma Names for Coq Verification Projects Using Deep Learning"
+    authors: "P Nie, K Palmskog, JJ Li, M Gligoric"
+    pub: "2021 IEEE/ACM 43RD INTERNATIONAL CONFERENCE ON SOFTWARE ENGINEERING: COMPANION PROCEEDINGS (ICSE-COMPANION 2021), Institute of Electrical and Electronics Engineers (IEEE)"
+    year: 2021
   - title: "On compositional information flow aware refinement"
     authors: "C Baumann, M Dam, R Guanciale, H Nemati"
     pub: "IEEE 34th Computer Security Foundations Symposium (CSF)"
