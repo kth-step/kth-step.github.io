@@ -54,5 +54,5 @@ Communication systems and protocols are often standardized to enable interoperab
 
 In this project we design, implement and verify a separation kernel for high-assurance real-time systems running on RISC-V.
 
-[Simple Secure Separation Kernel (S3K) GitHub repository](https://github.com/kth-step/separation-kernel){: .btn .btn--info}
+[Simple Secure Separation Kernel (S3K) GitHub repository](https://github.com/kth-step/s3k){: .btn .btn--info}
 [OpenMZ (Open MultiZone) Github reposititory](https://github.com/castor-software/openmz){: .btn .btn--info}
