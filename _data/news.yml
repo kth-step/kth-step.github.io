@@ -1,4 +1,6 @@
 news:
+  - date: "2022-12-09"
+    text: "Anoud Alshnakat and Didrik Lundberg attended EuroP4'22 in Rome, Italy. They presented their work on [HOLP4: semantics for a verified data plane](https://dl.acm.org/doi/10.1145/3565475.3569081)."
   - date: "2022-11-08"
     text: "Henrik Karlsson did his 30% seminar on the [design and implementation of a dynamic separation kernel](/projects/separation-kernel)."
   - date: "2022-10-27"

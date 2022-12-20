@@ -1,5 +1,10 @@
 publications:
 # 2022
+  - title: "HOL4P4: semantics for a verified data plane"
+    authors: "A Alshnakat, D Lundberg, R Guanciale, M Dam, K Palmskog"
+    pub: "EuroP4 '22: Proceedings of the 5th International Workshop on P4 in Europe"
+    year: 2022
+    url: "https://dl.acm.org/doi/10.1145/3565475.3569081"
   - title: "A Case Study in Information Flow Refinement for Low Level Systems"
     authors: "R Guanciale, C Baumann, P Buiras, M Dam"
     pub: "The Logic of Software. A Tasting Menu of Formal Methods, Springer Nature"
