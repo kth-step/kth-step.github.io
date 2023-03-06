@@ -1,4 +1,8 @@
 news:
+  - date: "2023-03-09"
+    text: "Anoud did her 50% seminar titled \"HOL4P4: A Formal Semantics for P4 Programs.\" Read more about her work [here](/projects/p4)."
+  - date: "2023-02-16"
+    text: "Didrik did his 80% seminar titled \"Formal Verification of Binary Code and Programmable Networks.\" Read more about his work [here](/projects/holba) and [here](/projects/p4)."
   - date: "2022-12-09"
     text: "Anoud Alshnakat and Didrik Lundberg attended EuroP4'22 in Rome, Italy. They presented their work on [HOLP4: semantics for a verified data plane](https://dl.acm.org/doi/10.1145/3565475.3569081)."
   - date: "2022-11-08"
