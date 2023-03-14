@@ -8,7 +8,7 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'air' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -56,19 +56,19 @@ a {
 // Reduce font sizes
 // https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-326809412
 html {
-    font-size: 12px; // originally 16px
+    font-size: 16px; // originally 16px
     @include breakpoint($medium) {
-        font-size: 14px; // originally 18px
+        font-size: 17px; // originally 18px
     }
 
     @include breakpoint($large) {
-        font-size: 16px; // originally 20px
+        font-size: 20px; // originally 20px
     }
 
     @include breakpoint($x-large) {
-        font-size: 18px; // originally 22px
+        font-size: 22px; // originally 22px
     }
-    max-width: 1000px;
+    //max-width: 1000px;
     padding: auto;
     margin: auto;
 }

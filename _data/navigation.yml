@@ -10,6 +10,7 @@ main:
 #   url: /software
   - title: "Members"
     url: /members
-  - title: "About"
-    url: /about
+# - title: "Funders & Sponsors"
+#  - title: "About"
+#    url: /about
 
