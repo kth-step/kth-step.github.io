@@ -29,6 +29,7 @@ This project is funded by the [Center for Cyber Defence and Information Security
 
 <h2>Resources</h2>
 - [Simple Secure Separation Kernel (S3K) GitHub repository](https://github.com/kth-step/s3k)
+- [S3K Documentation](/s3k)
 - [S3K Proof-of-Concept GitHub repository](https://github.com/kth-step/s3k-poc)
 - [OpenMZ (Open MultiZone) Github reposititory](https://github.com/castor-software/openmz)
 - [Poster (CDIS Spring Conference, 24 May 2022)](/assets/projects/separation-kernel/2022-cdis-poster.pdf)
