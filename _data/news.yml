@@ -1,4 +1,6 @@
 news:
+  - date: "2023-06-02"
+    text: "Congratulations to Andreas Lindner who has successfully defended his dissertation [Proving Safety and Security of Binary Programs](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-326719)!"
   - date: "2023-03-14"
     title: "Ning's 80% seminar"
     text: "Ning did his 80% seminar titled \"Building a Trustworthy Stack: Formal Verification of Low-Level Hardware and Software.\" Read more about Ning's work on the [Machine-Independent Language](/projects/mil) and the [formally verified pipelined processor](/projects/pipeline-processor)."
