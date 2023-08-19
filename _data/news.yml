@@ -1,5 +1,9 @@
 news:
+  #  - date: "2023-06-14"
+  #    title: "Jonas Haglund defence"
+  #    text: "Congratulations to Jonas Haglund who has successfully defended his dissertation [Formal Verification of Peripheral Memory Isolation](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-327312)!"
   - date: "2023-06-02"
+    title: "Andreas Lidner defence"
     text: "Congratulations to Andreas Lindner who has successfully defended his dissertation [Proving Safety and Security of Binary Programs](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-326719)!"
   - date: "2023-03-14"
     title: "Ning's 80% seminar"
