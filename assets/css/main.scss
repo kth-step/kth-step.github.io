@@ -25,10 +25,11 @@ img.portrait {
         margin: auto;
         padding: 0px;
         object-fit: contain;
-object-position: center;
-box-sizing:content-box; //again, just an attempt to fix current issue, no effect...
-max-width:100%;
-border:1px solid black;
+	object-position: center;
+	box-sizing:content-box; //again, just an attempt to fix current issue, no effect...
+	max-width:100%;
+	border:1px solid black;
+	border-radius: 15%;
 }
 
 .page {
