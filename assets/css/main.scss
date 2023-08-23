@@ -16,15 +16,14 @@
 
 // Profile pictures in the People page
 .grid__item.members {
-    text-align: left;
-
+	text-align: center;
 }
 img.portrait {
-        width: 200px;
-        height: auto;
-        margin: auto;
-        padding: 0px;
-        object-fit: contain;
+	width: 200px;
+	height: auto;
+	margin: auto;
+	padding: 0px;
+	object-fit: contain;
 	object-position: center;
 	box-sizing:content-box; //again, just an attempt to fix current issue, no effect...
 	max-width:100%;
@@ -32,45 +31,46 @@ img.portrait {
 	border-radius: 15%;
 }
 
+
 .page {
-        padding-right: 0px;
+	padding-right: 0px;
 }
 
 iframe {
-        padding-top: 10px;
-        padding-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 a {
-        text-decoration: none;
+	text-decoration: none;
 }
 
 .news dt {
-        margin: 0px;
-        margin-top: 0.5em;
+	margin: 0px;
+	margin-top: 0.5em;
 }
 .news p {
-        font-size: 1.2em;
-        margin: 0px;
+	font-size: 1.2em;
+	margin: 0px;
 }
 
 // Reduce font sizes
 // https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-326809412
 html {
-    font-size: 16px; // originally 16px
-    @include breakpoint($medium) {
-        font-size: 17px; // originally 18px
-    }
+	font-size: 16px; // originally 16px
+	@include breakpoint($medium) {
+		font-size: 17px; // originally 18px
+	}
 
-    @include breakpoint($large) {
-        font-size: 20px; // originally 20px
-    }
+	@include breakpoint($large) {
+		font-size: 20px; // originally 20px
+	}
 
-    @include breakpoint($x-large) {
-        font-size: 22px; // originally 22px
-    }
-    //max-width: 1000px;
-    padding: auto;
-    margin: auto;
+	@include breakpoint($x-large) {
+		font-size: 22px; // originally 22px
+	}
+	//max-width: 1000px;
+	padding: auto;
+	margin: auto;
 }
 

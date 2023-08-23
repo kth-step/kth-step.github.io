@@ -16,7 +16,7 @@ You can access thesis and publications in the dedicated [Publications page](/pub
 <dl class="news">
 {% for item in news %}
         <dt>{{ item.title }} </dt>
-        <dd> {{ item.text |  markdownify }} <p style="text-align: right;">{{ item.date }}</p></dd>
+        <dd> {{ item.content |  markdownify }} <p style="text-align: right;">{{ item.date }}</p></dd>
 {% endfor %}
 </dl>
 </div>
