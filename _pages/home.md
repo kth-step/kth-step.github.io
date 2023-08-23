@@ -12,7 +12,7 @@ You can access thesis and publications in the dedicated [Publications page](/pub
 <!-- Get 10 latest news -->
 {% assign news = site.data.news.news | slice: 0, 7 %}
 <!-- Print the news -->
-<div style="font-size:80%">
+<div>
 <dl class="news">
 {% for item in news %}
         <dt>{{ item.title }} </dt>

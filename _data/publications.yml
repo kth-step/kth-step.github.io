@@ -1,4 +1,15 @@
 publications:
+# 2023
+  - title: "Formal Verification of Peripheral Memory Isolation"
+    authors: "J Haglund"
+    pub: "PhD dissertation, KTH Royal Institute of Technology, Stockholm"
+    year: 2023
+    url: "https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-327312"
+  - title: "Proving Safety and Security of Binary Programs"
+    authors: "A Lindner"
+    pub: "PhD dissertation, KTH Royal Institute of Technology, Stockholm"
+    year: 2023
+    url: "https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-326719"
 # 2022
   - title: "HOL4P4: semantics for a verified data plane"
     authors: "A Alshnakat, D Lundberg, R Guanciale, M Dam, K Palmskog"
