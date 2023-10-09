@@ -16,13 +16,18 @@ The directions can be adjusted according to the interest of the student.
   The suggested steps in the project are:
 
   - building a translator of a subset of Rust into (purely functional) Standard ML
-    - if you know Standard ML or a similar language like OCaml, then you can write the implementation in this language, and discuss its correctness (pen-and-paper proof)
-    - if you know HOL4 or some similar ITP, then you can do full proof of correctness in the ITP
+    - if you know [Standard ML](https://smlfamily.org) or a similar language like [OCaml](https://ocaml.org), then you can write the implementation in this language, and discuss its correctness (pen-and-paper proof)
+    - if you know [HOL4](https://hol-theorem-prover.org) or some similar Interactive Theorem Prover (ITP), then you can do full proof of correctness in the ITP
       The translator may even be written in HOL4 itself, e.g. using existing parser generator `$HOLDIR/examples/formal-languages/context-free/pegScript.sml`
-    - alternatively, building a translatior that translates Rust into the [Lem language](https://www.cl.cam.ac.uk/~pes20/lem/)
+    - alternatively, you can build a translator that translates Rust into the [Lem language](https://github.com/rems-project/lem), that can then be automtically exported to HOL4 or OCaml
   - implementing a utility library for some of the primitive operations
   - testing the translated programs using test vectors by [Wycheproof](https://github.com/google/wycheproof) and NIST
   - validation of Rust against translated Standard ML implementation
 
   contact [Arve Gengelbach](https://www.kth.se/profile/arveg) and [Karl Palmskog](https://www.kth.se/profile/palmskog)
 
+- Fixing and extending a formally verified distributed key-value store
+
+  A formally verified [distributed causally consistent key-value store]((https://github.com/coq-community/chapar) was developed in the [Coq proof assistant](https://coq.inria.fr) and is now maintained on GitHub. While executable code can be extracted to OCaml and compiled together with library code to produce executable code, the key-value stores cannot be run due to issues in the OCaml library code. There are also several serious problems in the verified code, e.g., the formal specification assumes removal of duplicates while the OCaml implementation does not remove duplicates due to using raw UDP (see [issues](https://github.com/coq-community/chapar/issues) on GitHub). An interesting task is make the OCaml code run again and try to figure out the best way of fixing the most serious issues such as message deduplication, at both the Coq and OCaml levels, and practically evaluating the updated code.
+
+  contact [Karl Palmskog](https://www.kth.se/profile/palmskog)
