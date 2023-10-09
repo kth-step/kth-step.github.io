@@ -6,6 +6,8 @@ main:
     url: /publications
   - title: "Projects"
     url: /projects
+  - title: "Student Projects"
+    url: /stud_projects
 # - title: "Software"
 #   url: /software
   - title: "Members"
