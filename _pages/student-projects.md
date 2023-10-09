@@ -28,6 +28,12 @@ The directions can be adjusted according to the interest of the student.
 
 - Fixing and extending a formally verified distributed key-value store
 
-  A formally verified [distributed causally consistent key-value store]((https://github.com/coq-community/chapar) was developed in the [Coq proof assistant](https://coq.inria.fr) and is now maintained on GitHub. While executable code can be extracted to OCaml and compiled together with library code to produce executable code, the key-value stores cannot be run due to issues in the OCaml library code. There are also several serious problems in the verified code, e.g., the formal specification assumes removal of duplicates while the OCaml implementation does not remove duplicates due to using raw UDP (see [issues](https://github.com/coq-community/chapar/issues) on GitHub). An interesting task is make the OCaml code run again and try to figure out the best way of fixing the most serious issues such as message deduplication, at both the Coq and OCaml levels, and practically evaluating the updated code.
+  A formally verified [distributed causally consistent key-value store](https://github.com/coq-community/chapar) was developed in the [Coq proof assistant](https://coq.inria.fr) and is now maintained on GitHub. While executable code can be extracted to OCaml and compiled together with library code to produce executable code, the key-value stores cannot be run due to issues in the OCaml library code. There are also several serious problems in the verified code, e.g., the formal specification assumes removal of duplicates while the OCaml implementation does not remove duplicates due to using the UDP protocol (see [issues](https://github.com/coq-community/chapar/issues) on GitHub).
+
+  The suggested steps in the project are:
+
+  - make the (extracted) OCaml code run again
+  - fix the most serious issues such as message deduplication, at both the Coq and OCaml levels
+  - practically evaluate the updated code on benchmark workloads
 
   contact [Karl Palmskog](https://www.kth.se/profile/palmskog)
