@@ -3,7 +3,7 @@ title: Student Projects
 permalink: /stud_projects/
 ---
 
-There are various possibilities for thesis projects in the STEP group, which can be suitable for thesis projects depending on difficulty and scope.
+There are various possibilities for thesis projects in the STEP group of varying difficulty and scope.
 Here we list some particular projects and contact details to members of the group.
 The directions can be adjusted according to the interest of the student.
 
