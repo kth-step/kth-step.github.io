@@ -11,6 +11,11 @@ publications:
     year: 2023
     url: "https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-326719"
 # 2022
+  - title: "Secure Anycast Channels with Applications to 4G and 5G Handovers"
+    authors: "K Norrman"
+    pub: "IACR Cryptology ePrint Archive, Paper 2022/1149"
+    year: 2022
+    url: "https://eprint.iacr.org/2022/1149"
   - title: "HOL4P4: semantics for a verified data plane"
     authors: "A Alshnakat, D Lundberg, R Guanciale, M Dam, K Palmskog"
     pub: "EuroP4 '22: Proceedings of the 5th International Workshop on P4 in Europe"
@@ -23,12 +28,12 @@ publications:
     url: "https://link.springer.com/chapter/10.1007/978-3-031-08166-8_4"
   - title: "Formally Verified Isolation of DMA"
     authors: "J Haglund, R Guanciale"
-    pub: "Formally Methods for Computer-Aided Design"
+    pub: "Conference on Formally Methods for Computer-Aided Design (FMCAD) 2022"
     year: 2022
     url: "https://library.oapen.org/bitstream/handle/20.500.12657/58896/E-Book_Proceedings%20of%20the%2022nd%20Conference%20on%20Formal%20Methods%20in%20Computer-Aided%20Design%20%E2%80%93%20FMCAD%202022.pdf?sequence=1#page=131"
   - title: "Foundations and Tools in HOL4 for Analysis of Microarchitectural Out-of-Order Execution"
     authors: "K Palmskog, X Yao, N Dong, R Guanciale, M Dam"
-    pub: "Formally Methods for Computer-Aided Design"
+    pub: "Conference on Formally Methods for Computer-Aided Design (FMCAD) 2022"
     year: 2022
     url: "https://library.oapen.org/bitstream/handle/20.500.12657/58896/1/E-Book_Proceedings%20of%20the%2022nd%20Conference%20on%20Formal%20Methods%20in%20Computer-Aided%20Design%20%E2%80%93%20FMCAD%202022.pdf#page=142"
   - title: "Secure Partitioning of Composite Cloud Applications"
@@ -37,6 +42,16 @@ publications:
     year: 2022
     url: "https://link.springer.com/chapter/10.1007/978-3-031-04718-3_3"
 # 2021
+  - title: "Extended Formal Analysis of the EDHOC Protocol in Tamarin"
+    authors: "K Norrman, V Sundararajan, A Bruni"
+    pub: "ICETE (Selected Papers) 2021: 224-248"
+    year: 2021
+    url: "https://link.springer.com/chapter/10.1007/978-3-031-36840-0_11"
+  - title: "Formal Analysis of EDHOC Key Establishment for Constrained IoT Devices"
+    authors: "K Norrman, V Sundararajan, A Bruni"
+    pub: "Conference on Security and Cryptography (SECRYPT) 2021: 210-221"
+    year: 2021
+    url: "https://arxiv.org/abs/2007.11427"
   - title: "Validation of Side-Channel Models via Observation Refinement"
     authors: "P Buiras, H Nemati, A Lindner, R Guanciale"
     pub: "MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture"
@@ -44,7 +59,7 @@ publications:
     url: "https://dl.acm.org/doi/abs/10.1145/3466752.3480130"
   - title: "Refinement-Based Verification of Device-to-Device Information Flow"
     authors: "N Dong, R Guanciale, M Dam"
-    pub: "CONFERENCE ON FORMAL METHODS IN COMPUTER-AIDED DESIGN–FMCAD"
+    pub: "Conference on Formal Methods in Computer-Aided Design (FMCAD) 2021"
     year: 2021
     url: "https://library.oapen.org/bitstream/handle/20.500.12657/51064/E-Book_Proceedings%20of%20the%2021st%20Conference%20on%20Formal%20Methods%20in%20Computer-Aided%20Design%20%20%20FMCAD%202021.pdf?sequence=1#page=135"
   - title: "ROOSTERIZE: Suggesting Lemma Names for Coq Verification Projects Using Deep Learning"
