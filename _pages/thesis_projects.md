@@ -1,6 +1,6 @@
 ---
-title: Student Projects
-permalink: /stud_projects/
+title: Thesis Projects
+permalink: /thesis_projects/
 ---
 
 There are various possibilities for thesis projects in the STEP group of varying difficulty and scope.
