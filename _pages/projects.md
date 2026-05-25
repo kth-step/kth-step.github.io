@@ -39,6 +39,8 @@ To improve the performance of processors, instruction pipelining is applied to h
 
 Software-Defined Networking (SDN) permits programming the data plane of the network devices using languages such as P4. This capability can impact network correctness due to error-prone programs. To address this, we have built a formalization of P4 semantics using the interactive theorem prover HOL4. This semantics allows us to analyse security properties in P4 packet forwarding programs.
 
+[HOL4P4 GitHub repository](https://github.com/kth-step/HOL4P4){: .btn .btn--info}
+
 ## [Side-Channel Abstract Modelling and Validation, SCAM-V](scam-v)
 {: #scam-v}
 
