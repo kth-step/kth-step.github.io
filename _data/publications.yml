@@ -1,5 +1,48 @@
 publications:
+# 2026
+  - title: "Forward Symbolic Execution for Trustworthy Automation of Binary Code Verification"
+    authors: "A Lindner, K Palmskog, S Constable, M Dam, R Guanciale, H Nemati"
+    pub: "International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI)"
+    year: 2026
+    url: "https://link.springer.com/chapter/10.1007/978-3-032-15700-3_8"
+# 2025
+  - title: "Partitioning Kernel With Capability Controlled Temporal and Spatial Partitioning"
+    authors: "H Karlsson, R Guanciale"
+    pub: "IEEE Real-Time Systems Symposium (RTSS) 2025"
+    year: 2025
+    url: "https://ieeexplore.ieee.org/abstract/document/11315078"
+  - title: "Securing p4 programs by information flow control"
+    authors: "A Alshnakat, AM Ahmadian, M Balliu, R Guanciale, M Dam"
+    pub: "IEEE 38th Computer Security Foundations Symposium (CSF) 2025"
+    year: 2025
+    url: "https://ieeexplore.ieee.org/abstract/document/11097838"    
+  - title: "Mitigating Traffic Analysis Attacks While Maintaining On-Path Network Observability"
+    authors: "J Kövér, R Guanciale, G Dán"
+    pub: "Nordic Conference on Secure IT Systems"
+    year: 2025
+    url: "https://link.springer.com/chapter/10.1007/978-3-032-14782-0_14"
+# 2024
+  - title: "Proof-Producing Symbolic Execution for P4"
+    authors: "M Soloviev, M Balliu, R Guanciale"
+    pub: "Verified Software. Theories, Tools and Experiments (VSTTE)"
+    year: 2024
+    url: "https://link.springer.com/chapter/10.1007/978-3-031-86695-1_5"
+  - title: "Security properties through the lens of modal logic"
+    authors: "M Soloviev, M Balliu, R Guanciale"
+    pub: "IEEE 37th Computer Security Foundations Symposium (CSF) 2024"
+    year: 2024
+    url: "https://ieeexplore.ieee.org/abstract/document/10664235"
+  - title: "HOL4P4: mechanized small-step semantics for P4"
+    authors: "A Alshnakat, D Lundberg, R Guanciale, M Dam"
+    pub: "Proceedings of the ACM on Programming Languages 8 (OOPSLA1) 2024"
+    year: 2024
+    url: "https://dl.acm.org/doi/pdf/10.1145/3649819"
 # 2023
+  - title: "Formal Verification of Correctness and Information Flow Security for an In-Order Pipelined Processor"
+    authors: "N Dong, Roberto Guanciale, Mads Dam, A Lööw"
+    pub: "Conference on Formally Methods for Computer-Aided Design (FMCAD) 2023"
+    year: 2023
+    url: "https://ieeexplore.ieee.org/document/10329321"
   - title: "Formal Verification of Peripheral Memory Isolation"
     authors: "J Haglund"
     pub: "PhD dissertation, KTH Royal Institute of Technology, Stockholm"
